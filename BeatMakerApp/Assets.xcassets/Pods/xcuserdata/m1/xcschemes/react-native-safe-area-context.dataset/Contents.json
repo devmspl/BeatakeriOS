@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "react-native-safe-area-context.xcscheme",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

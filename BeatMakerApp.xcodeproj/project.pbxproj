@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057D7BA239D04B5452CF1703 /* Pods_BeatMakerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEBB11F3A39F467581ACE9 /* Pods_BeatMakerApp.framework */; };
+		2547B08A6BB24BC1377619E0 /* Pods_BeatMakerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC162C3BC3859E7D55D206 /* Pods_BeatMakerAppTests.framework */; };
+		6F10D9D128C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
+		6F10D9D228C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
+		6F10D9D328C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
+		6F29C9EE28B8DF9C00E4E948 /* tabbvar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */; };
+		6F71A67728BF7D4B00A6087D /* BeatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71A67628BF7D4B00A6087D /* BeatScreen.swift */; };
+		6F71A67928BF7DE700A6087D /* CareerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71A67828BF7DE700A6087D /* CareerScreen.swift */; };
+		6F75DEAF28B7469E003EABF0 /* starting2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75DEAE28B7469E003EABF0 /* starting2.swift */; };
+		6F75DEB128B746CF003EABF0 /* starting3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75DEB028B746CF003EABF0 /* starting3.swift */; };
+		6F75DEB328B74703003EABF0 /* starting4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75DEB228B74703003EABF0 /* starting4.swift */; };
+		6F866F5728B35C6400CA046D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F5628B35C6400CA046D /* AppDelegate.swift */; };
+		6F866F5928B35C6400CA046D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F5828B35C6400CA046D /* SceneDelegate.swift */; };
+		6F866F5B28B35C6400CA046D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F5A28B35C6400CA046D /* ViewController.swift */; };
+		6F866F5E28B35C6400CA046D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F866F5C28B35C6400CA046D /* Main.storyboard */; };
+		6F866F6028B35C6900CA046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F866F5F28B35C6900CA046D /* Assets.xcassets */; };
+		6F866F6328B35C6900CA046D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F866F6128B35C6900CA046D /* LaunchScreen.storyboard */; };
+		6F866F6E28B35C6A00CA046D /* BeatMakerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F6D28B35C6A00CA046D /* BeatMakerAppTests.swift */; };
+		6F866F7828B35C6A00CA046D /* BeatMakerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F7728B35C6A00CA046D /* BeatMakerAppUITests.swift */; };
+		6F866F7A28B35C6A00CA046D /* BeatMakerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F7928B35C6A00CA046D /* BeatMakerAppUITestsLaunchTests.swift */; };
+		6F866F8928B3974D00CA046D /* firstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F8828B3974D00CA046D /* firstPage.swift */; };
+		6FB1117728BDFA28004E80FF /* myMusicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1117628BDFA27004E80FF /* myMusicPage.swift */; };
+		6FB851CB28B49DE0001D4929 /* onCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB851CA28B49DE0001D4929 /* onCode.swift */; };
+		6FC0D33E28B78E0B0082CD69 /* myMusicScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0D33D28B78E0B0082CD69 /* myMusicScreen.swift */; };
+		6FC7868328BE1C7300BB75D1 /* recentlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */; };
+		8E16004FD083895CFE88D0BD /* Pods_BeatMakerApp_BeatMakerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3EE42D852AC78112A7D365 /* Pods_BeatMakerApp_BeatMakerAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F866F6A28B35C6A00CA046D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F866F4B28B35C6400CA046D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F866F5228B35C6400CA046D;
+			remoteInfo = BeatMakerApp;
+		};
+		6F866F7428B35C6A00CA046D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F866F4B28B35C6400CA046D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F866F5228B35C6400CA046D;
+			remoteInfo = BeatMakerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123BBABB9B40B97D01E039D9 /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		197AC81EBA3F45D8F4538438 /* Pods-BeatMakerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BeatMakerAppTests/Pods-BeatMakerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FED2126AF96934A85010DB7 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3397E84B3126B7B74C98427F /* Pods-BeatMakerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerApp.debug.xcconfig"; path = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3EE42D852AC78112A7D365 /* Pods_BeatMakerApp_BeatMakerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerApp_BeatMakerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BC162C3BC3859E7D55D206 /* Pods_BeatMakerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F10D9D428C1F05F0048D9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Base; path = Base.lproj/music.mp3; sourceTree = "<group>"; };
+		6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbvar.swift; sourceTree = "<group>"; };
+		6F71A67628BF7D4B00A6087D /* BeatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatScreen.swift; sourceTree = "<group>"; };
+		6F71A67828BF7DE700A6087D /* CareerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerScreen.swift; sourceTree = "<group>"; };
+		6F75DEAE28B7469E003EABF0 /* starting2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starting2.swift; sourceTree = "<group>"; };
+		6F75DEB028B746CF003EABF0 /* starting3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starting3.swift; sourceTree = "<group>"; };
+		6F75DEB228B74703003EABF0 /* starting4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starting4.swift; sourceTree = "<group>"; };
+		6F866F5328B35C6400CA046D /* BeatMakerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatMakerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F866F5628B35C6400CA046D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F866F5828B35C6400CA046D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F866F5A28B35C6400CA046D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F866F5D28B35C6400CA046D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F866F5F28B35C6900CA046D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F866F6228B35C6900CA046D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F866F6428B35C6900CA046D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F866F6928B35C6A00CA046D /* BeatMakerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatMakerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F866F6D28B35C6A00CA046D /* BeatMakerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatMakerAppTests.swift; sourceTree = "<group>"; };
+		6F866F7328B35C6A00CA046D /* BeatMakerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatMakerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F866F7728B35C6A00CA046D /* BeatMakerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatMakerAppUITests.swift; sourceTree = "<group>"; };
+		6F866F7928B35C6A00CA046D /* BeatMakerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatMakerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F866F8828B3974D00CA046D /* firstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPage.swift; sourceTree = "<group>"; };
+		6FB1117628BDFA27004E80FF /* myMusicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMusicPage.swift; sourceTree = "<group>"; };
+		6FB851CA28B49DE0001D4929 /* onCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onCode.swift; sourceTree = "<group>"; };
+		6FC0D33D28B78E0B0082CD69 /* myMusicScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMusicScreen.swift; sourceTree = "<group>"; };
+		6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentlyPage.swift; sourceTree = "<group>"; };
+		7D5091A4EB718C768DEDAA05 /* Pods-BeatMakerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerApp.release.xcconfig"; path = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.release.xcconfig"; sourceTree = "<group>"; };
+		81EEBB11F3A39F467581ACE9 /* Pods_BeatMakerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8D1CA2844C399CD10F8D1D /* Pods-BeatMakerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerAppTests.release.xcconfig"; path = "Target Support Files/Pods-BeatMakerAppTests/Pods-BeatMakerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F866F5028B35C6400CA046D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057D7BA239D04B5452CF1703 /* Pods_BeatMakerApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F866F6628B35C6A00CA046D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2547B08A6BB24BC1377619E0 /* Pods_BeatMakerAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F866F7028B35C6A00CA046D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E16004FD083895CFE88D0BD /* Pods_BeatMakerApp_BeatMakerAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F866F4A28B35C6400CA046D = {
+			isa = PBXGroup;
+			children = (
+				6F10D9D528C1F05F0048D9F0 /* music.mp3 */,
+				6F866F5528B35C6400CA046D /* BeatMakerApp */,
+				6F866F6C28B35C6A00CA046D /* BeatMakerAppTests */,
+				6F866F7628B35C6A00CA046D /* BeatMakerAppUITests */,
+				6F866F5428B35C6400CA046D /* Products */,
+				7F0338EECCE56BB0FA842A57 /* Pods */,
+				FA6D344EDDF62A6B7C93CE6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F866F5428B35C6400CA046D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F866F5328B35C6400CA046D /* BeatMakerApp.app */,
+				6F866F6928B35C6A00CA046D /* BeatMakerAppTests.xctest */,
+				6F866F7328B35C6A00CA046D /* BeatMakerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F866F5528B35C6400CA046D /* BeatMakerApp */ = {
+			isa = PBXGroup;
+			children = (
+				6F866F5628B35C6400CA046D /* AppDelegate.swift */,
+				6F866F5828B35C6400CA046D /* SceneDelegate.swift */,
+				6F866F5A28B35C6400CA046D /* ViewController.swift */,
+				6F866F5C28B35C6400CA046D /* Main.storyboard */,
+				6F71A67828BF7DE700A6087D /* CareerScreen.swift */,
+				6F71A67628BF7D4B00A6087D /* BeatScreen.swift */,
+				6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */,
+				6FB1117628BDFA27004E80FF /* myMusicPage.swift */,
+				6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */,
+				6FC0D33D28B78E0B0082CD69 /* myMusicScreen.swift */,
+				6F75DEB228B74703003EABF0 /* starting4.swift */,
+				6F75DEB028B746CF003EABF0 /* starting3.swift */,
+				6F75DEAE28B7469E003EABF0 /* starting2.swift */,
+				6FB851CA28B49DE0001D4929 /* onCode.swift */,
+				6F866F8828B3974D00CA046D /* firstPage.swift */,
+				6F866F5F28B35C6900CA046D /* Assets.xcassets */,
+				6F866F6128B35C6900CA046D /* LaunchScreen.storyboard */,
+				6F866F6428B35C6900CA046D /* Info.plist */,
+			);
+			path = BeatMakerApp;
+			sourceTree = "<group>";
+		};
+		6F866F6C28B35C6A00CA046D /* BeatMakerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F866F6D28B35C6A00CA046D /* BeatMakerAppTests.swift */,
+			);
+			path = BeatMakerAppTests;
+			sourceTree = "<group>";
+		};
+		6F866F7628B35C6A00CA046D /* BeatMakerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F866F7728B35C6A00CA046D /* BeatMakerAppUITests.swift */,
+				6F866F7928B35C6A00CA046D /* BeatMakerAppUITestsLaunchTests.swift */,
+			);
+			path = BeatMakerAppUITests;
+			sourceTree = "<group>";
+		};
+		7F0338EECCE56BB0FA842A57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3397E84B3126B7B74C98427F /* Pods-BeatMakerApp.debug.xcconfig */,
+				7D5091A4EB718C768DEDAA05 /* Pods-BeatMakerApp.release.xcconfig */,
+				123BBABB9B40B97D01E039D9 /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */,
+				1FED2126AF96934A85010DB7 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */,
+				197AC81EBA3F45D8F4538438 /* Pods-BeatMakerAppTests.debug.xcconfig */,
+				FF8D1CA2844C399CD10F8D1D /* Pods-BeatMakerAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA6D344EDDF62A6B7C93CE6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81EEBB11F3A39F467581ACE9 /* Pods_BeatMakerApp.framework */,
+				4C3EE42D852AC78112A7D365 /* Pods_BeatMakerApp_BeatMakerAppUITests.framework */,
+				63BC162C3BC3859E7D55D206 /* Pods_BeatMakerAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F866F5228B35C6400CA046D /* BeatMakerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F866F7D28B35C6A00CA046D /* Build configuration list for PBXNativeTarget "BeatMakerApp" */;
+			buildPhases = (
+				805BDE75DF4B24D9CAB1588C /* [CP] Check Pods Manifest.lock */,
+				6F866F4F28B35C6400CA046D /* Sources */,
+				6F866F5028B35C6400CA046D /* Frameworks */,
+				6F866F5128B35C6400CA046D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatMakerApp;
+			productName = BeatMakerApp;
+			productReference = 6F866F5328B35C6400CA046D /* BeatMakerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F866F6828B35C6A00CA046D /* BeatMakerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F866F8028B35C6A00CA046D /* Build configuration list for PBXNativeTarget "BeatMakerAppTests" */;
+			buildPhases = (
+				D26B9F94C07314786CF01535 /* [CP] Check Pods Manifest.lock */,
+				6F866F6528B35C6A00CA046D /* Sources */,
+				6F866F6628B35C6A00CA046D /* Frameworks */,
+				6F866F6728B35C6A00CA046D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F866F6B28B35C6A00CA046D /* PBXTargetDependency */,
+			);
+			name = BeatMakerAppTests;
+			productName = BeatMakerAppTests;
+			productReference = 6F866F6928B35C6A00CA046D /* BeatMakerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F866F7228B35C6A00CA046D /* BeatMakerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F866F8328B35C6A00CA046D /* Build configuration list for PBXNativeTarget "BeatMakerAppUITests" */;
+			buildPhases = (
+				9D59D8A8860BE13F9BC38A0A /* [CP] Check Pods Manifest.lock */,
+				6F866F6F28B35C6A00CA046D /* Sources */,
+				6F866F7028B35C6A00CA046D /* Frameworks */,
+				6F866F7128B35C6A00CA046D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F866F7528B35C6A00CA046D /* PBXTargetDependency */,
+			);
+			name = BeatMakerAppUITests;
+			productName = BeatMakerAppUITests;
+			productReference = 6F866F7328B35C6A00CA046D /* BeatMakerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F866F4B28B35C6400CA046D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6F866F5228B35C6400CA046D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6F866F6828B35C6A00CA046D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6F866F5228B35C6400CA046D;
+					};
+					6F866F7228B35C6A00CA046D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6F866F5228B35C6400CA046D;
+					};
+				};
+			};
+			buildConfigurationList = 6F866F4E28B35C6400CA046D /* Build configuration list for PBXProject "BeatMakerApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F866F4A28B35C6400CA046D;
+			productRefGroup = 6F866F5428B35C6400CA046D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F866F5228B35C6400CA046D /* BeatMakerApp */,
+				6F866F6828B35C6A00CA046D /* BeatMakerAppTests */,
+				6F866F7228B35C6A00CA046D /* BeatMakerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F866F5128B35C6400CA046D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F866F6328B35C6900CA046D /* LaunchScreen.storyboard in Resources */,
+				6F866F6028B35C6900CA046D /* Assets.xcassets in Resources */,
+				6F866F5E28B35C6400CA046D /* Main.storyboard in Resources */,
+				6F10D9D128C1F05F0048D9F0 /* music.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F866F6728B35C6A00CA046D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F10D9D228C1F05F0048D9F0 /* music.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F866F7128B35C6A00CA046D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F10D9D328C1F05F0048D9F0 /* music.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		805BDE75DF4B24D9CAB1588C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeatMakerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D59D8A8860BE13F9BC38A0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeatMakerApp-BeatMakerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26B9F94C07314786CF01535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeatMakerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F866F4F28B35C6400CA046D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F75DEAF28B7469E003EABF0 /* starting2.swift in Sources */,
+				6F866F5B28B35C6400CA046D /* ViewController.swift in Sources */,
+				6F29C9EE28B8DF9C00E4E948 /* tabbvar.swift in Sources */,
+				6F75DEB328B74703003EABF0 /* starting4.swift in Sources */,
+				6F71A67728BF7D4B00A6087D /* BeatScreen.swift in Sources */,
+				6FC7868328BE1C7300BB75D1 /* recentlyPage.swift in Sources */,
+				6F75DEB128B746CF003EABF0 /* starting3.swift in Sources */,
+				6F71A67928BF7DE700A6087D /* CareerScreen.swift in Sources */,
+				6FB851CB28B49DE0001D4929 /* onCode.swift in Sources */,
+				6FC0D33E28B78E0B0082CD69 /* myMusicScreen.swift in Sources */,
+				6FB1117728BDFA28004E80FF /* myMusicPage.swift in Sources */,
+				6F866F5728B35C6400CA046D /* AppDelegate.swift in Sources */,
+				6F866F5928B35C6400CA046D /* SceneDelegate.swift in Sources */,
+				6F866F8928B3974D00CA046D /* firstPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F866F6528B35C6A00CA046D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F866F6E28B35C6A00CA046D /* BeatMakerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F866F6F28B35C6A00CA046D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F866F7828B35C6A00CA046D /* BeatMakerAppUITests.swift in Sources */,
+				6F866F7A28B35C6A00CA046D /* BeatMakerAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F866F6B28B35C6A00CA046D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F866F5228B35C6400CA046D /* BeatMakerApp */;
+			targetProxy = 6F866F6A28B35C6A00CA046D /* PBXContainerItemProxy */;
+		};
+		6F866F7528B35C6A00CA046D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F866F5228B35C6400CA046D /* BeatMakerApp */;
+			targetProxy = 6F866F7428B35C6A00CA046D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F10D9D528C1F05F0048D9F0 /* music.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F10D9D428C1F05F0048D9F0 /* Base */,
+			);
+			name = music.mp3;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		6F866F5C28B35C6400CA046D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F866F5D28B35C6400CA046D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F866F6128B35C6900CA046D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F866F6228B35C6900CA046D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F866F7B28B35C6A00CA046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F866F7C28B35C6A00CA046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F866F7E28B35C6A00CA046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3397E84B3126B7B74C98427F /* Pods-BeatMakerApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeatMakerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeatMakerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F866F7F28B35C6A00CA046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5091A4EB718C768DEDAA05 /* Pods-BeatMakerApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeatMakerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeatMakerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F866F8128B35C6A00CA046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197AC81EBA3F45D8F4538438 /* Pods-BeatMakerAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeatMakerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMakerApp.app/BeatMakerApp";
+			};
+			name = Debug;
+		};
+		6F866F8228B35C6A00CA046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8D1CA2844C399CD10F8D1D /* Pods-BeatMakerAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeatMakerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMakerApp.app/BeatMakerApp";
+			};
+			name = Release;
+		};
+		6F866F8428B35C6A00CA046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123BBABB9B40B97D01E039D9 /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeatMakerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatMakerApp;
+			};
+			name = Debug;
+		};
+		6F866F8528B35C6A00CA046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FED2126AF96934A85010DB7 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8XR9GPSS6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BeatMakerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeatMakerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F866F4E28B35C6400CA046D /* Build configuration list for PBXProject "BeatMakerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F866F7B28B35C6A00CA046D /* Debug */,
+				6F866F7C28B35C6A00CA046D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F866F7D28B35C6A00CA046D /* Build configuration list for PBXNativeTarget "BeatMakerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F866F7E28B35C6A00CA046D /* Debug */,
+				6F866F7F28B35C6A00CA046D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F866F8028B35C6A00CA046D /* Build configuration list for PBXNativeTarget "BeatMakerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F866F8128B35C6A00CA046D /* Debug */,
+				6F866F8228B35C6A00CA046D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F866F8328B35C6A00CA046D /* Build configuration list for PBXNativeTarget "BeatMakerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F866F8428B35C6A00CA046D /* Debug */,
+				6F866F8528B35C6A00CA046D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F866F4B28B35C6400CA046D /* Project object */;
+}

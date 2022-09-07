@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F74BB2E3FE9554DA70CCFA6DD29C42 /* Pods-BeatMakerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED187C4AE9F9E30DBAEA2F285B0472A /* Pods-BeatMakerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60019381CFF1BF4E8C27DC3A513DB7AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B2BC90434373A7EC61359813B654B34 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2B36DBC83ED5180816AF41A7FFE74 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */; };
+		8779213EF1D08384848BCFFEF12F7B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AB2C8CD481F280D2805FCDDE3081740C /* Pods-BeatMakerAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF791CCDE4E2506265605E6A720D78E /* Pods-BeatMakerAppTests-dummy.m */; };
+		AB43384D4EBF57DA299B389B4CA7619D /* Pods-BeatMakerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0C4F168F315B3CA143723AA81CD74 /* Pods-BeatMakerApp-dummy.m */; };
+		B2FA8876B12A7F1E53C8C556551D1627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5A517B476842E9AC72B9B66D89475FB /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A45DCC8765263B4BCF81AF3FA40C78CC /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D73A2C60F0E38B467138E0EF1E251D17 /* Pods-BeatMakerAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A41DE4029E69EAE67B94B9019C498A /* Pods-BeatMakerAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		679F35F8354F8BB0D4C6F6CCE47A47D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C14218266DD3533C9A8330C4B368991;
+			remoteInfo = "Pods-BeatMakerApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0940648BF5151B5CD05964D3E1BD86CA /* Pods-BeatMakerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1067F0072E5FA2B6BB12C0B8F76C9B41 /* Pods-BeatMakerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		17DBDA96BD7D1A4DB1A6F4F0D1BB1139 /* Pods-BeatMakerApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-Info.plist"; sourceTree = "<group>"; };
+		1A6119FC7C6B88FAB91E847204FB692D /* Pods-BeatMakerAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		289AD4E7F77C70BCE781C92C19EC95A3 /* Pods-BeatMakerApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BeatMakerApp"; path = Pods_BeatMakerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5DF59C7ECE7FF4423168FDB0C0E2C5 /* Pods-BeatMakerApp-BeatMakerAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerApp-BeatMakerAppUITests.modulemap"; sourceTree = "<group>"; };
+		2DA02C2EC0B7DDCA5F04CF06C02D66C3 /* Pods-BeatMakerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1E123053B6719D71F2FAE015F60A24 /* Pods-BeatMakerAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerAppTests.modulemap"; sourceTree = "<group>"; };
+		3DE4AA8E3CA545EAF1B012B4997C8B29 /* Pods-BeatMakerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp.release.xcconfig"; sourceTree = "<group>"; };
+		43E0C4F168F315B3CA143723AA81CD74 /* Pods-BeatMakerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerApp-dummy.m"; sourceTree = "<group>"; };
+		462508155924B70600DB79A8711DCB9C /* Pods-BeatMakerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerApp.modulemap"; sourceTree = "<group>"; };
+		4A3167BADA3D71A8CC0C89DD945E1468 /* Pods-BeatMakerAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EA700CE4321DA12FDB54F60EE62D47F /* Pods-BeatMakerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7ED187C4AE9F9E30DBAEA2F285B0472A /* Pods-BeatMakerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerApp-umbrella.h"; sourceTree = "<group>"; };
+		7F234EDCF6CCED5CE830FDBDF64B1CE2 /* Pods-BeatMakerApp-BeatMakerAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BeatMakerApp-BeatMakerAppUITests"; path = Pods_BeatMakerApp_BeatMakerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0B67048F40B3ECC038E39E230536F0 /* Pods-BeatMakerAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BeatMakerAppTests"; path = Pods_BeatMakerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF2B36DBC83ED5180816AF41A7FFE74 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m"; sourceTree = "<group>"; };
+		A45DCC8765263B4BCF81AF3FA40C78CC /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		ABF791CCDE4E2506265605E6A720D78E /* Pods-BeatMakerAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerAppTests-dummy.m"; sourceTree = "<group>"; };
+		ADC1583132D619AFDCB45B9022751111 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B02D203B1A5C89C6C67A67C40320D79C /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA426B9C9070CB083FA34A62AA2AC0F1 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFC742626EBC02DAA9DFFE3C27DE83A9 /* Pods-BeatMakerAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerAppTests-Info.plist"; sourceTree = "<group>"; };
+		D2A41DE4029E69EAE67B94B9019C498A /* Pods-BeatMakerAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerAppTests-umbrella.h"; sourceTree = "<group>"; };
+		DE07303A865D1BAA698319DBDFB3D2B3 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE6D3BBE587F766D48119B7EA26CA819 /* Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist"; sourceTree = "<group>"; };
+		F891869AE4856A55F0626C9CCA6C31A7 /* Pods-BeatMakerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7538BC2557B4A8F8F4077A29265CD4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FA8876B12A7F1E53C8C556551D1627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ADB444E0497C6316AE9C679F986C825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8779213EF1D08384848BCFFEF12F7B13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0215186210043F3699580099CB504F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60019381CFF1BF4E8C27DC3A513DB7AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6101CF275CDBA07998E9AF4EE25BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289AD4E7F77C70BCE781C92C19EC95A3 /* Pods-BeatMakerApp */,
+				7F234EDCF6CCED5CE830FDBDF64B1CE2 /* Pods-BeatMakerApp-BeatMakerAppUITests */,
+				8D0B67048F40B3ECC038E39E230536F0 /* Pods-BeatMakerAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D1E9AACA046A509917736DC971AE4CB /* Pods-BeatMakerApp-BeatMakerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5DF59C7ECE7FF4423168FDB0C0E2C5 /* Pods-BeatMakerApp-BeatMakerAppUITests.modulemap */,
+				DE07303A865D1BAA698319DBDFB3D2B3 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown */,
+				BA426B9C9070CB083FA34A62AA2AC0F1 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist */,
+				9FF2B36DBC83ED5180816AF41A7FFE74 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */,
+				DE6D3BBE587F766D48119B7EA26CA819 /* Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist */,
+				A45DCC8765263B4BCF81AF3FA40C78CC /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */,
+				B02D203B1A5C89C6C67A67C40320D79C /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */,
+				ADC1583132D619AFDCB45B9022751111 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */,
+			);
+			name = "Pods-BeatMakerApp-BeatMakerAppUITests";
+			path = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests";
+			sourceTree = "<group>";
+		};
+		2624D13295581EA82A7627C56FA60777 /* Pods-BeatMakerApp */ = {
+			isa = PBXGroup;
+			children = (
+				462508155924B70600DB79A8711DCB9C /* Pods-BeatMakerApp.modulemap */,
+				0940648BF5151B5CD05964D3E1BD86CA /* Pods-BeatMakerApp-acknowledgements.markdown */,
+				4EA700CE4321DA12FDB54F60EE62D47F /* Pods-BeatMakerApp-acknowledgements.plist */,
+				43E0C4F168F315B3CA143723AA81CD74 /* Pods-BeatMakerApp-dummy.m */,
+				17DBDA96BD7D1A4DB1A6F4F0D1BB1139 /* Pods-BeatMakerApp-Info.plist */,
+				7ED187C4AE9F9E30DBAEA2F285B0472A /* Pods-BeatMakerApp-umbrella.h */,
+				F891869AE4856A55F0626C9CCA6C31A7 /* Pods-BeatMakerApp.debug.xcconfig */,
+				3DE4AA8E3CA545EAF1B012B4997C8B29 /* Pods-BeatMakerApp.release.xcconfig */,
+			);
+			name = "Pods-BeatMakerApp";
+			path = "Target Support Files/Pods-BeatMakerApp";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		84BE55EB85860C417662C66A2E3B5A35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2624D13295581EA82A7627C56FA60777 /* Pods-BeatMakerApp */,
+				0D1E9AACA046A509917736DC971AE4CB /* Pods-BeatMakerApp-BeatMakerAppUITests */,
+				B530E2113CBB9A7F31D6D516BB1D3BC2 /* Pods-BeatMakerAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B530E2113CBB9A7F31D6D516BB1D3BC2 /* Pods-BeatMakerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E123053B6719D71F2FAE015F60A24 /* Pods-BeatMakerAppTests.modulemap */,
+				1A6119FC7C6B88FAB91E847204FB692D /* Pods-BeatMakerAppTests-acknowledgements.markdown */,
+				4A3167BADA3D71A8CC0C89DD945E1468 /* Pods-BeatMakerAppTests-acknowledgements.plist */,
+				ABF791CCDE4E2506265605E6A720D78E /* Pods-BeatMakerAppTests-dummy.m */,
+				CFC742626EBC02DAA9DFFE3C27DE83A9 /* Pods-BeatMakerAppTests-Info.plist */,
+				D2A41DE4029E69EAE67B94B9019C498A /* Pods-BeatMakerAppTests-umbrella.h */,
+				2DA02C2EC0B7DDCA5F04CF06C02D66C3 /* Pods-BeatMakerAppTests.debug.xcconfig */,
+				1067F0072E5FA2B6BB12C0B8F76C9B41 /* Pods-BeatMakerAppTests.release.xcconfig */,
+			);
+			name = "Pods-BeatMakerAppTests";
+			path = "Target Support Files/Pods-BeatMakerAppTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0B6101CF275CDBA07998E9AF4EE25BDC /* Products */,
+				84BE55EB85860C417662C66A2E3B5A35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13FE75567AEFBA605E31C460CB1E8A92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A517B476842E9AC72B9B66D89475FB /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35ABF408185E349E266D484043B027B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F74BB2E3FE9554DA70CCFA6DD29C42 /* Pods-BeatMakerApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45CE1D08AB3FDD3659005B6A2A7374B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A2C60F0E38B467138E0EF1E251D17 /* Pods-BeatMakerAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C14218266DD3533C9A8330C4B368991 /* Pods-BeatMakerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5A541BC58ABEB94FDE81D85D562705 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp" */;
+			buildPhases = (
+				D35ABF408185E349E266D484043B027B /* Headers */,
+				D51DFF556636D4F3517BA9B7996F44E6 /* Sources */,
+				F0215186210043F3699580099CB504F1 /* Frameworks */,
+				70DA2D6BF38C923E71DC7FAA040923F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BeatMakerApp";
+			productName = Pods_BeatMakerApp;
+			productReference = 289AD4E7F77C70BCE781C92C19EC95A3 /* Pods-BeatMakerApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		513BE43B46C219A1C45E47B5BDC4A191 /* Pods-BeatMakerApp-BeatMakerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22379F06B8DD9EACB6015B1C058EF5C3 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp-BeatMakerAppUITests" */;
+			buildPhases = (
+				13FE75567AEFBA605E31C460CB1E8A92 /* Headers */,
+				3B033DB6C432551E11FED6806A131124 /* Sources */,
+				7538BC2557B4A8F8F4077A29265CD4DA /* Frameworks */,
+				DEE2BE6D778A1EBE331AF61FB460B7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BeatMakerApp-BeatMakerAppUITests";
+			productName = Pods_BeatMakerApp_BeatMakerAppUITests;
+			productReference = 7F234EDCF6CCED5CE830FDBDF64B1CE2 /* Pods-BeatMakerApp-BeatMakerAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E36C9E00A133316387FE8DC9402A7E52 /* Pods-BeatMakerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38596B1A74A6477739487E822F9AF273 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerAppTests" */;
+			buildPhases = (
+				F45CE1D08AB3FDD3659005B6A2A7374B /* Headers */,
+				31478A2F2235279D367046E1EE58D8EC /* Sources */,
+				8ADB444E0497C6316AE9C679F986C825 /* Frameworks */,
+				387167C191EA0E0F9BD9D709AE1B8DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				251CA50A06231454960A044A80A05567 /* PBXTargetDependency */,
+			);
+			name = "Pods-BeatMakerAppTests";
+			productName = Pods_BeatMakerAppTests;
+			productReference = 8D0B67048F40B3ECC038E39E230536F0 /* Pods-BeatMakerAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0B6101CF275CDBA07998E9AF4EE25BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C14218266DD3533C9A8330C4B368991 /* Pods-BeatMakerApp */,
+				513BE43B46C219A1C45E47B5BDC4A191 /* Pods-BeatMakerApp-BeatMakerAppUITests */,
+				E36C9E00A133316387FE8DC9402A7E52 /* Pods-BeatMakerAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387167C191EA0E0F9BD9D709AE1B8DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DA2D6BF38C923E71DC7FAA040923F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE2BE6D778A1EBE331AF61FB460B7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31478A2F2235279D367046E1EE58D8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2C8CD481F280D2805FCDDE3081740C /* Pods-BeatMakerAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B033DB6C432551E11FED6806A131124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2BC90434373A7EC61359813B654B34 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51DFF556636D4F3517BA9B7996F44E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43384D4EBF57DA299B389B4CA7619D /* Pods-BeatMakerApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		251CA50A06231454960A044A80A05567 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BeatMakerApp";
+			target = 1C14218266DD3533C9A8330C4B368991 /* Pods-BeatMakerApp */;
+			targetProxy = 679F35F8354F8BB0D4C6F6CCE47A47D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AD57486B3484445F806EDF2D1938CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC1583132D619AFDCB45B9022751111 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B619EA777E710B07C67CC49430BA415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA02C2EC0B7DDCA5F04CF06C02D66C3 /* Pods-BeatMakerAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerAppTests/Pods-BeatMakerAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerAppTests/Pods-BeatMakerAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75F34D103A4724F646C3BB04D94BF888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02D203B1A5C89C6C67A67C40320D79C /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79CEDEDCAE1EB691B4B67B51A59E499C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1067F0072E5FA2B6BB12C0B8F76C9B41 /* Pods-BeatMakerAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerAppTests/Pods-BeatMakerAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerAppTests/Pods-BeatMakerAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		98EDF0B221043B98F48C0F12F967C639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE4AA8E3CA545EAF1B012B4997C8B29 /* Pods-BeatMakerApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0222C1F7D76CA1677058EF64873F979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F891869AE4856A55F0626C9CCA6C31A7 /* Pods-BeatMakerApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22379F06B8DD9EACB6015B1C058EF5C3 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp-BeatMakerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F34D103A4724F646C3BB04D94BF888 /* Debug */,
+				0AD57486B3484445F806EDF2D1938CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38596B1A74A6477739487E822F9AF273 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B619EA777E710B07C67CC49430BA415 /* Debug */,
+				79CEDEDCAE1EB691B4B67B51A59E499C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5A541BC58ABEB94FDE81D85D562705 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0222C1F7D76CA1677058EF64873F979 /* Debug */,
+				98EDF0B221043B98F48C0F12F967C639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

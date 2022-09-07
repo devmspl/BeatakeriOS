@@ -1,0 +1,6 @@
+framework module Pods_BeatMakerApp {
+  umbrella header "Pods-BeatMakerApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

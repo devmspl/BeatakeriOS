@@ -12,6 +12,7 @@
 		6F10D9D128C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
 		6F10D9D228C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
 		6F10D9D328C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
+		6F16622628C9C644009A2856 /* BeatPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F16622528C9C644009A2856 /* BeatPage1.swift */; };
 		6F29C9EE28B8DF9C00E4E948 /* tabbvar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */; };
 		6F71A67728BF7D4B00A6087D /* BeatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71A67628BF7D4B00A6087D /* BeatScreen.swift */; };
 		6F71A67928BF7DE700A6087D /* CareerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71A67828BF7DE700A6087D /* CareerScreen.swift */; };
@@ -60,6 +61,7 @@
 		4C3EE42D852AC78112A7D365 /* Pods_BeatMakerApp_BeatMakerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerApp_BeatMakerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BC162C3BC3859E7D55D206 /* Pods_BeatMakerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F10D9D428C1F05F0048D9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Base; path = Base.lproj/music.mp3; sourceTree = "<group>"; };
+		6F16622528C9C644009A2856 /* BeatPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatPage1.swift; sourceTree = "<group>"; };
 		6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbvar.swift; sourceTree = "<group>"; };
 		6F71A67628BF7D4B00A6087D /* BeatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatScreen.swift; sourceTree = "<group>"; };
 		6F71A67828BF7DE700A6087D /* CareerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerScreen.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				6F866F5828B35C6400CA046D /* SceneDelegate.swift */,
 				6F866F5A28B35C6400CA046D /* ViewController.swift */,
 				6F866F5C28B35C6400CA046D /* Main.storyboard */,
+				6F16622528C9C644009A2856 /* BeatPage1.swift */,
 				6F71A67828BF7DE700A6087D /* CareerScreen.swift */,
 				6F71A67628BF7D4B00A6087D /* BeatScreen.swift */,
 				6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */,
@@ -192,7 +195,6 @@
 				197AC81EBA3F45D8F4538438 /* Pods-BeatMakerAppTests.debug.xcconfig */,
 				FF8D1CA2844C399CD10F8D1D /* Pods-BeatMakerAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -415,6 +417,7 @@
 				6F75DEAF28B7469E003EABF0 /* starting2.swift in Sources */,
 				6F866F5B28B35C6400CA046D /* ViewController.swift in Sources */,
 				6F29C9EE28B8DF9C00E4E948 /* tabbvar.swift in Sources */,
+				6F16622628C9C644009A2856 /* BeatPage1.swift in Sources */,
 				6F75DEB328B74703003EABF0 /* starting4.swift in Sources */,
 				6F71A67728BF7D4B00A6087D /* BeatScreen.swift in Sources */,
 				6FC7868328BE1C7300BB75D1 /* recentlyPage.swift in Sources */,

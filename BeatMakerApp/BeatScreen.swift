@@ -127,14 +127,14 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
             }
             else
             {
-                setup_recorder()
+                            setup_recorder()
 
-                audioRecorder.record()
-                meterTimer = Timer.scheduledTimer(timeInterval: 0.1, target:self, selector:#selector(self.updateAudioMeter(timer:)), userInfo:nil, repeats:true)
-                record_btn_ref.setTitle("Stop", for: .normal)
-                play_btn_ref.isEnabled = false
-                isRecording = true
-            }
+                            audioRecorder.record()
+                            meterTimer = Timer.scheduledTimer(timeInterval: 0.1, target:self, selector:#selector(self.updateAudioMeter(timer:)), userInfo:nil, repeats:true)
+                            record_btn_ref.setTitle("Stop", for: .normal)
+                            play_btn_ref.isEnabled = false
+                            isRecording = true
+                        }
         }
 
     
@@ -405,6 +405,5 @@ class DrumClass: UICollectionViewCell{
     
 
     @IBOutlet weak var drumImage: UIImageView!
-    
     @IBOutlet weak var beatBtn: UIButton!
 }

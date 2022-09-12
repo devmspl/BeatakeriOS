@@ -58,7 +58,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         switch (indexPath.row) {
         case 0 :
           
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum1", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -68,7 +68,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
                 audioPlayer.play()
         
         case 1 :
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum2", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -79,7 +79,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 2:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum3", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -90,7 +90,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 3 :
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum4", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -101,7 +101,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 4:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum5", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -112,7 +112,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 5:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum6", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -123,7 +123,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 6:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum7", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -134,7 +134,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 7:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum8", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -145,7 +145,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 8:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum9", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -155,7 +155,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
                 audioPlayer.play()
         
         case 9:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum10", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -166,7 +166,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         
             
         case 10:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum11", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -178,7 +178,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
             
         
         case 11:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum12", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()
@@ -190,7 +190,7 @@ class BeatPage1: UIViewController, UICollectionViewDelegate, UICollectionViewDat
             
             
         default:
-            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!)
+            let Sound = NSURL(fileURLWithPath: Bundle.main.path(forResource: "drum13", ofType: "mp3")!)
                 do {
                     audioPlayer = try AVAudioPlayer(contentsOf: Sound as URL)
                     audioPlayer.prepareToPlay()

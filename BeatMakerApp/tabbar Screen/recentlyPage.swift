@@ -30,6 +30,10 @@ class recentlyPage: UIViewController, UICollectionViewDelegate, UICollectionView
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize (width: collOut.frame.width/2.2, height: collOut.frame.height)
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+      let vc = storyboard?.instantiateViewController(withIdentifier: "BeatScreen") as! BeatScreen
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 class firstCLass: UICollectionViewCell{
     

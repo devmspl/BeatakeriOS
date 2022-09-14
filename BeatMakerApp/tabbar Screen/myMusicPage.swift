@@ -31,6 +31,9 @@ class myMusicPage: UIViewController, UICollectionViewDelegate, UICollectionViewD
         return cell
      
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.alert(message: "Functionality not developed yet")
+    }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return  CGSize(width: recentlyCollection.frame.width/2.1,height: recentlyCollection.frame.height)
     }
@@ -45,9 +48,13 @@ class myMusicPage: UIViewController, UICollectionViewDelegate, UICollectionViewD
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 88
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+            let vc =  storyboard?.instantiateViewController(withIdentifier: "lesson1") as! lesson1
+            self.navigationController?.pushViewController(vc, animated: true)
+        
+        
+    }
 }
-
 class recentlyClass: UICollectionViewCell{
     @IBOutlet weak var recentlycoll: UIView!
     

@@ -19,6 +19,8 @@
 		6F75DEAF28B7469E003EABF0 /* starting2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75DEAE28B7469E003EABF0 /* starting2.swift */; };
 		6F75DEB128B746CF003EABF0 /* starting3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75DEB028B746CF003EABF0 /* starting3.swift */; };
 		6F75DEB328B74703003EABF0 /* starting4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75DEB228B74703003EABF0 /* starting4.swift */; };
+		6F7EE5C128D19896008EDB59 /* lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EE5C028D19896008EDB59 /* lesson1.swift */; };
+		6F7EE5C328D1BC51008EDB59 /* Lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EE5C228D1BC51008EDB59 /* Lesson2.swift */; };
 		6F866F5728B35C6400CA046D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F5628B35C6400CA046D /* AppDelegate.swift */; };
 		6F866F5928B35C6400CA046D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F5828B35C6400CA046D /* SceneDelegate.swift */; };
 		6F866F5B28B35C6400CA046D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F866F5A28B35C6400CA046D /* ViewController.swift */; };
@@ -33,6 +35,8 @@
 		6FB851CB28B49DE0001D4929 /* onCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB851CA28B49DE0001D4929 /* onCode.swift */; };
 		6FC0D33E28B78E0B0082CD69 /* myMusicScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0D33D28B78E0B0082CD69 /* myMusicScreen.swift */; };
 		6FC7868328BE1C7300BB75D1 /* recentlyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */; };
+		6FC9DF4E28D1DF36009131FB /* lesson3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9DF4D28D1DF36009131FB /* lesson3.swift */; };
+		6FC9DF5028D20419009131FB /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9DF4F28D20418009131FB /* SettingScreen.swift */; };
 		761911DE28CC5F01006BF77A /* drum1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761911DD28CC5F00006BF77A /* drum1.wav */; };
 		761911E028CC5F39006BF77A /* drum4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761911DF28CC5F38006BF77A /* drum4.wav */; };
 		761911E228CC5F3F006BF77A /* drum5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761911E128CC5F3F006BF77A /* drum5.wav */; };
@@ -82,6 +86,8 @@
 		6F75DEAE28B7469E003EABF0 /* starting2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starting2.swift; sourceTree = "<group>"; };
 		6F75DEB028B746CF003EABF0 /* starting3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starting3.swift; sourceTree = "<group>"; };
 		6F75DEB228B74703003EABF0 /* starting4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starting4.swift; sourceTree = "<group>"; };
+		6F7EE5C028D19896008EDB59 /* lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson1.swift; sourceTree = "<group>"; };
+		6F7EE5C228D1BC51008EDB59 /* Lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2.swift; sourceTree = "<group>"; };
 		6F866F5328B35C6400CA046D /* BeatMakerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatMakerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F866F5628B35C6400CA046D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F866F5828B35C6400CA046D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +106,8 @@
 		6FB851CA28B49DE0001D4929 /* onCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onCode.swift; sourceTree = "<group>"; };
 		6FC0D33D28B78E0B0082CD69 /* myMusicScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMusicScreen.swift; sourceTree = "<group>"; };
 		6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentlyPage.swift; sourceTree = "<group>"; };
+		6FC9DF4D28D1DF36009131FB /* lesson3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson3.swift; sourceTree = "<group>"; };
+		6FC9DF4F28D20418009131FB /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		761911DD28CC5F00006BF77A /* drum1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum1.wav; sourceTree = "<group>"; };
 		761911DF28CC5F38006BF77A /* drum4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum4.wav; sourceTree = "<group>"; };
 		761911E128CC5F3F006BF77A /* drum5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum5.wav; sourceTree = "<group>"; };
@@ -147,6 +155,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F5A264128D0A36C000758AA /* signup screens */ = {
+			isa = PBXGroup;
+			children = (
+				6F75DEAE28B7469E003EABF0 /* starting2.swift */,
+				6F75DEB228B74703003EABF0 /* starting4.swift */,
+				6FB851CA28B49DE0001D4929 /* onCode.swift */,
+				6F75DEB028B746CF003EABF0 /* starting3.swift */,
+				6F866F8828B3974D00CA046D /* firstPage.swift */,
+			);
+			path = "signup screens";
+			sourceTree = "<group>";
+		};
+		6F5A264328D0A483000758AA /* tabbar Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6F16622528C9C644009A2856 /* BeatPage1.swift */,
+				6FB1117628BDFA27004E80FF /* myMusicPage.swift */,
+				6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */,
+				6F71A67828BF7DE700A6087D /* CareerScreen.swift */,
+				6F866F5C28B35C6400CA046D /* Main.storyboard */,
+				6FC9DF4F28D20418009131FB /* SettingScreen.swift */,
+				6FC9DF4D28D1DF36009131FB /* lesson3.swift */,
+				6F7EE5C228D1BC51008EDB59 /* Lesson2.swift */,
+				6F7EE5C028D19896008EDB59 /* lesson1.swift */,
+			);
+			path = "tabbar Screen";
+			sourceTree = "<group>";
+		};
 		6F866F4A28B35C6400CA046D = {
 			isa = PBXGroup;
 			children = (
@@ -173,22 +209,14 @@
 		6F866F5528B35C6400CA046D /* BeatMakerApp */ = {
 			isa = PBXGroup;
 			children = (
+				6F5A264328D0A483000758AA /* tabbar Screen */,
 				6F866F5628B35C6400CA046D /* AppDelegate.swift */,
 				6F866F5828B35C6400CA046D /* SceneDelegate.swift */,
 				6F866F5A28B35C6400CA046D /* ViewController.swift */,
-				6F866F5C28B35C6400CA046D /* Main.storyboard */,
-				6F16622528C9C644009A2856 /* BeatPage1.swift */,
-				6F71A67828BF7DE700A6087D /* CareerScreen.swift */,
 				6F71A67628BF7D4B00A6087D /* BeatScreen.swift */,
-				6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */,
-				6FB1117628BDFA27004E80FF /* myMusicPage.swift */,
 				6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */,
 				6FC0D33D28B78E0B0082CD69 /* myMusicScreen.swift */,
-				6F75DEB228B74703003EABF0 /* starting4.swift */,
-				6F75DEB028B746CF003EABF0 /* starting3.swift */,
-				6F75DEAE28B7469E003EABF0 /* starting2.swift */,
-				6FB851CA28B49DE0001D4929 /* onCode.swift */,
-				6F866F8828B3974D00CA046D /* firstPage.swift */,
+				6F5A264128D0A36C000758AA /* signup screens */,
 				6F866F5F28B35C6900CA046D /* Assets.xcassets */,
 				6F866F6128B35C6900CA046D /* LaunchScreen.storyboard */,
 				6F866F6428B35C6900CA046D /* Info.plist */,
@@ -479,18 +507,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F75DEAF28B7469E003EABF0 /* starting2.swift in Sources */,
+				6F7EE5C328D1BC51008EDB59 /* Lesson2.swift in Sources */,
 				6F866F5B28B35C6400CA046D /* ViewController.swift in Sources */,
 				6F29C9EE28B8DF9C00E4E948 /* tabbvar.swift in Sources */,
 				6F16622628C9C644009A2856 /* BeatPage1.swift in Sources */,
+				6FC9DF5028D20419009131FB /* SettingScreen.swift in Sources */,
 				6F75DEB328B74703003EABF0 /* starting4.swift in Sources */,
 				6F71A67728BF7D4B00A6087D /* BeatScreen.swift in Sources */,
 				6FC7868328BE1C7300BB75D1 /* recentlyPage.swift in Sources */,
 				6F75DEB128B746CF003EABF0 /* starting3.swift in Sources */,
 				6F71A67928BF7DE700A6087D /* CareerScreen.swift in Sources */,
 				6FB851CB28B49DE0001D4929 /* onCode.swift in Sources */,
+				6FC9DF4E28D1DF36009131FB /* lesson3.swift in Sources */,
 				6FC0D33E28B78E0B0082CD69 /* myMusicScreen.swift in Sources */,
 				6FB1117728BDFA28004E80FF /* myMusicPage.swift in Sources */,
 				6F866F5728B35C6400CA046D /* AppDelegate.swift in Sources */,
+				6F7EE5C128D19896008EDB59 /* lesson1.swift in Sources */,
 				6F866F5928B35C6400CA046D /* SceneDelegate.swift in Sources */,
 				6F866F8928B3974D00CA046D /* firstPage.swift in Sources */,
 			);

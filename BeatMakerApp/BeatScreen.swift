@@ -25,7 +25,7 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     var soundsNoteTitle = "" 
     var isRecording = false
     var isPlaying = false
-
+   
     let drumImageArray = [UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum2"),UIImage.init(named: "drum2"),UIImage.init(named: "drum1"),UIImage.init(named: "drum2"),UIImage.init(named: "drum2")]
    
     

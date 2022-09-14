@@ -47,7 +47,7 @@ class myMusicScreen: UIViewController, UICollectionViewDelegate, UICollectionVie
             let cell = populerOutlet.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as!  populerClass
             return cell
         }
-        
+
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == collectionOutlet {
@@ -58,6 +58,22 @@ class myMusicScreen: UIViewController, UICollectionViewDelegate, UICollectionVie
             return  CGSize(width: populerOutlet.frame.width/2.5,height: populerOutlet.frame.height)
         }
 
+}
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == collectionOutlet{
+            let vc =  storyboard?.instantiateViewController(withIdentifier: "lesson1") as! lesson1
+            self.navigationController?.pushViewController(vc, animated: true)
+        
+    } else if collectionView == newOutlett
+    {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "Lesson2") as!
+        Lesson2
+        self.navigationController?.pushViewController(vc, animated: true)
+    }else{
+        let vc = storyboard?.instantiateViewController(withIdentifier: "lesson3") as! lesson3
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 }
 class cellClass : UICollectionViewCell{

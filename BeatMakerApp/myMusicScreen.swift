@@ -75,6 +75,11 @@ class myMusicScreen: UIViewController, UICollectionViewDelegate, UICollectionVie
     }
     
 }
+    @IBAction func playbuttn(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "lesson1") as! lesson1
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 class cellClass : UICollectionViewCell{
     @IBOutlet weak var resumeOutlet: UIView!

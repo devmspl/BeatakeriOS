@@ -395,4 +395,5 @@ class DrumClass: UICollectionViewCell{
 
     @IBOutlet weak var drumImage: UIImageView!
     @IBOutlet weak var beatBtn: UIButton!
+
 }

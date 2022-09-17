@@ -10,6 +10,7 @@ target 'BeatMakerApp' do
   target 'BeatMakerAppTests' do
     inherit! :search_paths
     # Pods for testing
+	
   end
 
   target 'BeatMakerAppUITests' do

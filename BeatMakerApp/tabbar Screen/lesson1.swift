@@ -14,17 +14,23 @@ class lesson1: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
 
     @IBOutlet weak var lessonOneTable: UICollectionView!
     
-    @IBOutlet weak var labelCurrentTime: UILabel!
-    
-    @IBOutlet weak var playbackSlider: UISlider!
-    
-    @IBOutlet weak var ButtonPlay: UISlider!
-    
     var hideStart = false
     var audioPlayer : AVAudioPlayer?
     var player:AVPlayer?
     var playerItem:AVPlayerItem?
     fileprivate let seekDuration: Float64 = 10
+    
+    
+ 
+ 
+    @IBOutlet weak var playBackSlider: UISlider!
+    
+   
+    @IBOutlet weak var lblCurruntDuration: UILabel!
+    
+  
+    @IBOutlet weak var playButn: UIButton!
+    
     let drumImageArray = [UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum1"),UIImage.init(named: "drum2"),UIImage.init(named: "drum2"),UIImage.init(named: "drum1"),UIImage.init(named: "drum2"),UIImage.init(named: "drum2")]
     
     
@@ -34,12 +40,54 @@ class lesson1: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         super.viewDidLoad()
         lessonOneTable.delegate = self
         lessonOneTable.dataSource = self
-        let url = URL(string: "AUDIO_URL_HERE")
+       
         
-        
-        
-        let playerItem:AVPlayerItem = AVPlayerItem(url: url!)
-        player = AVPlayer(playerItem: playerItem)
+            let url = NSURL(fileURLWithPath: Bundle.main.path(forResource: "longDrum", ofType: "mp3")!)
+        let playerItem:AVPlayerItem = AVPlayerItem(url: url as URL)
+             player = AVPlayer(playerItem: playerItem)
+          //add playbckslider
+       
+        playBackSlider.minimumValue = 0
+              
+        playBackSlider.addTarget(self, action: #selector(lesson1.playbackSliderValueChanged(_:)), for: .valueChanged)
+              
+              let duration : CMTime = playerItem.asset.duration
+              let seconds : Float64 = CMTimeGetSeconds(duration)
+        lblCurruntDuration.text = self.stringFromTimeInterval(interval: seconds)
+              
+              let duration1 : CMTime = playerItem.currentTime()
+              let seconds1 : Float64 = CMTimeGetSeconds(duration1)
+        lblCurruntDuration.text = self.stringFromTimeInterval(interval: seconds1)
+              
+        playBackSlider.maximumValue = Float(seconds)
+        playBackSlider.isContinuous = true
+        playBackSlider.tintColor = UIColor(red: 0.93, green: 0.74, blue: 0.00, alpha: 1.00)
+              
+               
+               player!.addPeriodicTimeObserver(forInterval: CMTimeMakeWithSeconds(1, preferredTimescale: 1), queue: DispatchQueue.main) { (CMTime) -> Void in
+                   if self.player!.currentItem?.status == .readyToPlay {
+                       let time : Float64 = CMTimeGetSeconds(self.player!.currentTime());
+                       self.playBackSlider.value = Float ( time );
+                       
+                       self.lblCurruntDuration.text = self.stringFromTimeInterval(interval: time)
+                   }
+                   
+                   let playbackLikelyToKeepUp = self.player?.currentItem?.isPlaybackLikelyToKeepUp
+                   if playbackLikelyToKeepUp == false{
+                       print("IsBuffering")
+                       self.playButn.isHidden = true
+                     
+                   } else {
+                       //stop the activity indicator
+                       print("Buffering completed")
+                       self.playButn.isHidden = false
+                     
+                   }
+                   
+               }
+               
+               
+           
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return drumImageArray.count
@@ -92,7 +140,20 @@ class lesson1: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         lessonOneTable.reloadData()
     switch sender.tag{
         case 0 :
+        
             hideStart = true
+        print("play Button")
+         if player?.rate == 0
+                
+         {
+             player!.play()
+             self.playButn.isHidden = true
+             self.playButn.isHidden = false
+             playButn.setImage(UIImage(named: "ic_orchadio_pause"), for: UIControl.State.normal)
+         } else {
+             player!.pause()
+             playButn.setImage(UIImage(named: "drum1"), for: UIControl.State.normal)
+         }
             self.beats(music: "drum1")
         case 1 :
             self.beats(music: "drum2")
@@ -133,7 +194,41 @@ class lesson1: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         self.navigationController?.popViewController(animated: true)
     }
     
+    
+    @objc func playbackSliderValueChanged(_ playBackSlider:UISlider)
+      {
+          let seconds : Int64 = Int64(playBackSlider.value)
+          let targetTime:CMTime = CMTimeMake(value: seconds, timescale: 1)
+          
+          player!.seek(to: targetTime)
+          
+          if player!.rate == 0
+          {
+              player?.play()
+          }
+      }
+      
+      @objc func finishedPlaying( _ myNotification:NSNotification) {
+          playButn.setImage(UIImage(named: "drum1"), for: UIControl.State.normal)
+      }
+      
+      func stringFromTimeInterval(interval: TimeInterval) -> String {
+          
+          let interval = Int(interval)
+          let seconds = interval % 60
+          let minutes = (interval / 60) % 60
+       
+          return String(format: "%02d:%02d",  minutes, seconds)
+      }
+      
+
 }
+    
+  
+
+
+    
+
 class LessonOne: UICollectionViewCell {
     @IBOutlet weak var drumImg: UIImageView!
     @IBOutlet weak var startImage: UIImageView!

@@ -42,7 +42,7 @@ class lesson1: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
         lessonOneTable.dataSource = self
        
         
-            let url = NSURL(fileURLWithPath: Bundle.main.path(forResource: "longDrum", ofType: "mp3")!)
+            let url = NSURL(fileURLWithPath: Bundle.main.path(forResource: "longDrum", ofType: "wav")!)
         let playerItem:AVPlayerItem = AVPlayerItem(url: url as URL)
              player = AVPlayer(playerItem: playerItem)
           //add playbckslider
@@ -149,22 +149,88 @@ class lesson1: UIViewController, UICollectionViewDelegate, UICollectionViewDataS
              player!.play()
              self.playButn.isHidden = true
              self.playButn.isHidden = false
-             playButn.setImage(UIImage(named: "ic_orchadio_pause"), for: UIControl.State.normal)
+             playButn.setImage(UIImage(named: "disk1"), for: UIControl.State.normal)
          } else {
              player!.pause()
-             playButn.setImage(UIImage(named: "drum1"), for: UIControl.State.normal)
+             playButn.setImage(UIImage(named: "disk2"), for: UIControl.State.normal)
          }
             self.beats(music: "drum1")
         case 1 :
             self.beats(music: "drum2")
+        
+        if player == nil { return }
+             if let duration  = player!.currentItem?.duration {
+                 let playerCurrentTime = CMTimeGetSeconds(player!.currentTime())
+                 let newTime = playerCurrentTime + seekDuration
+                 if newTime < CMTimeGetSeconds(duration)
+                 {
+                     let selectedTime: CMTime = CMTimeMake(value: Int64(newTime * 1000 as Float64), timescale: 1000)
+                     player!.seek(to: selectedTime)
+                 }
+                 player?.pause()
+                 player?.play()
+             }
+         
         case 2:
             self.beats(music: "drum3")
+        if player == nil { return }
+             if let duration  = player!.currentItem?.duration {
+                 let playerCurrentTime = CMTimeGetSeconds(player!.currentTime())
+                 let newTime = playerCurrentTime + seekDuration
+                 if newTime < CMTimeGetSeconds(duration)
+                 {
+                     let selectedTime: CMTime = CMTimeMake(value: Int64(newTime * 1000 as Float64), timescale: 1000)
+                     player!.seek(to: selectedTime)
+                 }
+                 player?.pause()
+                 player?.play()
+             }
+         
         case 3 :
             self.beats(music: "drum4")
+        if player == nil { return }
+             if let duration  = player!.currentItem?.duration {
+                 let playerCurrentTime = CMTimeGetSeconds(player!.currentTime())
+                 let newTime = playerCurrentTime + seekDuration
+                 if newTime < CMTimeGetSeconds(duration)
+                 {
+                     let selectedTime: CMTime = CMTimeMake(value: Int64(newTime * 1000 as Float64), timescale: 1000)
+                     player!.seek(to: selectedTime)
+                 }
+                 player?.pause()
+                 player?.play()
+             }
+         
         case 4:
             self.beats(music: "drum5")
+    if player == nil { return }
+         if let duration  = player!.currentItem?.duration {
+             let playerCurrentTime = CMTimeGetSeconds(player!.currentTime())
+             let newTime = playerCurrentTime + seekDuration
+             if newTime < CMTimeGetSeconds(duration)
+             {
+                 let selectedTime: CMTime = CMTimeMake(value: Int64(newTime * 1000 as Float64), timescale: 1000)
+                 player!.seek(to: selectedTime)
+             }
+             player?.pause()
+             player?.play()
+         }
+     
         case 5:
             self.beats(music: "drum6")
+    if player == nil { return }
+     if let duration  = player!.currentItem?.duration {
+         let playerCurrentTime = CMTimeGetSeconds(player!.currentTime())
+         let newTime = playerCurrentTime + seekDuration
+         if newTime < CMTimeGetSeconds(duration)
+         {
+             let selectedTime: CMTime = CMTimeMake(value: Int64(newTime * 1000 as Float64), timescale: 1000)
+             player!.seek(to: selectedTime)
+         }
+         player?.pause()
+         player?.play()
+     }
+ 
 //        case 6:
 //            self.beats(music: "drum7")
 //        case 7:

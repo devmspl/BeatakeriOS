@@ -13,8 +13,8 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
  
     @IBOutlet weak var collectionOutt: UICollectionView!
     @IBOutlet weak var recordingTimeLabel: UILabel!
-    @IBOutlet weak var record_btn_ref: UIButton!
-    @IBOutlet weak var play_btn_ref: UIButton!
+  //  @IBOutlet weak var record_btn_ref: UIButton!
+    //@IBOutlet weak var play_btn_ref: UIButton!
     
     var audioRecorder: AVAudioRecorder!
     var audioPlayer : AVAudioPlayer?
@@ -186,7 +186,7 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
             {
                 finishAudioRecording(success: true)
                 recordingTimeLabel.text = "Rec"
-                play_btn_ref.isEnabled = true
+              //  play_btn_ref.isEnabled = true
                 isRecording = false
             }
             else
@@ -196,7 +196,7 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
                             audioRecorder.record()
                             meterTimer = Timer.scheduledTimer(timeInterval: 0.1, target:self, selector:#selector(self.updateAudioMeter(timer:)), userInfo:nil, repeats:true)
                 recordingTimeLabel.text = "Stop"
-                            play_btn_ref.isEnabled = false
+                    //        play_btn_ref.isEnabled = false
                             isRecording = true
                         }
         }
@@ -223,7 +223,7 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
                 audioRecorder = nil
                 meterTimer.invalidate()
                 print("recorded successfully.")
-                play_btn_ref.setTitle("Play", for: .normal)
+              //  play_btn_ref.setTitle("Play", for: .normal)
 //                recordSuccess()
             }
             else
@@ -249,16 +249,16 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
             if(isPlaying)
             {
                 audioPlayer!.stop()
-                record_btn_ref.isEnabled = true
-                play_btn_ref.setTitle("Play", for: .normal)
+            //    record_btn_ref.isEnabled = true
+              //  play_btn_ref.setTitle("Play", for: .normal)
                 isPlaying = false
             }
             else
             {
                 if FileManager.default.fileExists(atPath: getFileUrl().path)
                 {
-                    record_btn_ref.isEnabled = false
-                    play_btn_ref.setTitle("pause", for: .normal)
+                 //   record_btn_ref.isEnabled = false
+                   // play_btn_ref.setTitle("pause", for: .normal)
                     prepare_play()
                     audioPlayer?.play()
                     isPlaying = true
@@ -276,7 +276,7 @@ class BeatScreen: UIViewController, UICollectionViewDelegate, UICollectionViewDa
             {
                 finishAudioRecording(success: false)
             }
-            play_btn_ref.isEnabled = true
+           // play_btn_ref.isEnabled = true
         }
 
  
@@ -397,3 +397,5 @@ class DrumClass: UICollectionViewCell{
     @IBOutlet weak var beatBtn: UIButton!
 
 }
+
+

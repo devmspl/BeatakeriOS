@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		057D7BA239D04B5452CF1703 /* Pods_BeatMakerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EEBB11F3A39F467581ACE9 /* Pods_BeatMakerApp.framework */; };
 		2547B08A6BB24BC1377619E0 /* Pods_BeatMakerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC162C3BC3859E7D55D206 /* Pods_BeatMakerAppTests.framework */; };
-		6F0DE7CE28D5DEBB005C441F /* longDrum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F0DE7CD28D5DEBA005C441F /* longDrum.mp3 */; };
-		6F0DE7D028D5E347005C441F /* longDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F0DE7CF28D5E347005C441F /* longDrum.wav */; };
 		6F10D9D128C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
 		6F10D9D228C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
 		6F10D9D328C1F05F0048D9F0 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F10D9D528C1F05F0048D9F0 /* music.mp3 */; };
 		6F16622628C9C644009A2856 /* BeatPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F16622528C9C644009A2856 /* BeatPage1.swift */; };
 		6F29C9EE28B8DF9C00E4E948 /* tabbvar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */; };
+		6F4855B228D83FB600DCBE8A /* longDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6F4855B128D83FB600DCBE8A /* longDrum.wav */; };
+		6F4855B428D8542500DCBE8A /* levelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4855B328D8542500DCBE8A /* levelOne.swift */; };
 		6F71A67728BF7D4B00A6087D /* BeatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71A67628BF7D4B00A6087D /* BeatScreen.swift */; };
 		6F71A67928BF7DE700A6087D /* CareerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F71A67828BF7DE700A6087D /* CareerScreen.swift */; };
 		6F75DEAF28B7469E003EABF0 /* starting2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75DEAE28B7469E003EABF0 /* starting2.swift */; };
@@ -80,11 +80,11 @@
 		3397E84B3126B7B74C98427F /* Pods-BeatMakerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerApp.debug.xcconfig"; path = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4C3EE42D852AC78112A7D365 /* Pods_BeatMakerApp_BeatMakerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerApp_BeatMakerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BC162C3BC3859E7D55D206 /* Pods_BeatMakerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F0DE7CD28D5DEBA005C441F /* longDrum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = longDrum.mp3; sourceTree = "<group>"; };
-		6F0DE7CF28D5E347005C441F /* longDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = longDrum.wav; sourceTree = "<group>"; };
 		6F10D9D428C1F05F0048D9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Base; path = Base.lproj/music.mp3; sourceTree = "<group>"; };
 		6F16622528C9C644009A2856 /* BeatPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatPage1.swift; sourceTree = "<group>"; };
 		6F29C9ED28B8DF9C00E4E948 /* tabbvar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbvar.swift; sourceTree = "<group>"; };
+		6F4855B128D83FB600DCBE8A /* longDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = longDrum.wav; sourceTree = "<group>"; };
+		6F4855B328D8542500DCBE8A /* levelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = levelOne.swift; sourceTree = "<group>"; };
 		6F71A67628BF7D4B00A6087D /* BeatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatScreen.swift; sourceTree = "<group>"; };
 		6F71A67828BF7DE700A6087D /* CareerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerScreen.swift; sourceTree = "<group>"; };
 		6F75DEAE28B7469E003EABF0 /* starting2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starting2.swift; sourceTree = "<group>"; };
@@ -179,6 +179,7 @@
 				6FC7868228BE1C7300BB75D1 /* recentlyPage.swift */,
 				6F71A67828BF7DE700A6087D /* CareerScreen.swift */,
 				6F866F5C28B35C6400CA046D /* Main.storyboard */,
+				6F4855B328D8542500DCBE8A /* levelOne.swift */,
 				6FC9DF4F28D20418009131FB /* SettingScreen.swift */,
 				6FC9DF4D28D1DF36009131FB /* lesson3.swift */,
 				6F7EE5C228D1BC51008EDB59 /* Lesson2.swift */,
@@ -253,13 +254,12 @@
 				761911E328CC5F48006BF77A /* drum2.wav */,
 				761911E728CC5F59006BF77A /* drum3.wav */,
 				761911DF28CC5F38006BF77A /* drum4.wav */,
-				6F0DE7CD28D5DEBA005C441F /* longDrum.mp3 */,
 				761911E128CC5F3F006BF77A /* drum5.wav */,
 				761911EB28CC5F65006BF77A /* drum6.wav */,
 				761911EF28CC5F70006BF77A /* drum7.wav */,
 				761911E528CC5F4E006BF77A /* drum8.wav */,
 				761911ED28CC5F6B006BF77A /* drum9.wav */,
-				6F0DE7CF28D5E347005C441F /* longDrum.wav */,
+				6F4855B128D83FB600DCBE8A /* longDrum.wav */,
 				761911E928CC5F60006BF77A /* drum10.wav */,
 				761911F528CC5F86006BF77A /* drum11.wav */,
 				761911F328CC5F7E006BF77A /* drum12.wav */,
@@ -404,6 +404,7 @@
 				6F866F6328B35C6900CA046D /* LaunchScreen.storyboard in Resources */,
 				761911E228CC5F3F006BF77A /* drum5.wav in Resources */,
 				761911EC28CC5F65006BF77A /* drum6.wav in Resources */,
+				6F4855B228D83FB600DCBE8A /* longDrum.wav in Resources */,
 				6F866F6028B35C6900CA046D /* Assets.xcassets in Resources */,
 				761911E428CC5F48006BF77A /* drum2.wav in Resources */,
 				761911E628CC5F4E006BF77A /* drum8.wav in Resources */,
@@ -411,13 +412,11 @@
 				761911EA28CC5F60006BF77A /* drum10.wav in Resources */,
 				6F866F5E28B35C6400CA046D /* Main.storyboard in Resources */,
 				761911F828CC5F8C006BF77A /* drum13.wav in Resources */,
-				6F0DE7D028D5E347005C441F /* longDrum.wav in Resources */,
 				761911F228CC5F76006BF77A /* drum14.wav in Resources */,
 				6F10D9D128C1F05F0048D9F0 /* music.mp3 in Resources */,
 				761911E828CC5F59006BF77A /* drum3.wav in Resources */,
 				761911EE28CC5F6B006BF77A /* drum9.wav in Resources */,
 				761911DE28CC5F01006BF77A /* drum1.wav in Resources */,
-				6F0DE7CE28D5DEBB005C441F /* longDrum.mp3 in Resources */,
 				761911E028CC5F39006BF77A /* drum4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +528,7 @@
 				6FC9DF4E28D1DF36009131FB /* lesson3.swift in Sources */,
 				6FC0D33E28B78E0B0082CD69 /* myMusicScreen.swift in Sources */,
 				6FB1117728BDFA28004E80FF /* myMusicPage.swift in Sources */,
+				6F4855B428D8542500DCBE8A /* levelOne.swift in Sources */,
 				6F866F5728B35C6400CA046D /* AppDelegate.swift in Sources */,
 				6F7EE5C128D19896008EDB59 /* lesson1.swift in Sources */,
 				6F866F5928B35C6400CA046D /* SceneDelegate.swift in Sources */,

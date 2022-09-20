@@ -14,17 +14,11 @@ class firstPage: UIViewController {
         view.overrideUserInterfaceStyle = .light
       
     }
-
-
-    
     @IBAction func continueButtn(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "starting2") as! starting2
         self.navigationController?.pushViewController(vc, animated: true)
         
     }
-    
-
-
 }
 extension UIViewController {
     func alert(message: String, title: String = "") {

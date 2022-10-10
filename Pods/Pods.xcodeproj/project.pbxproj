@@ -7,65 +7,183 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43F74BB2E3FE9554DA70CCFA6DD29C42 /* Pods-BeatMakerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED187C4AE9F9E30DBAEA2F285B0472A /* Pods-BeatMakerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60019381CFF1BF4E8C27DC3A513DB7AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7B2BC90434373A7EC61359813B654B34 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF2B36DBC83ED5180816AF41A7FFE74 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */; };
-		8779213EF1D08384848BCFFEF12F7B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AB2C8CD481F280D2805FCDDE3081740C /* Pods-BeatMakerAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF791CCDE4E2506265605E6A720D78E /* Pods-BeatMakerAppTests-dummy.m */; };
-		AB43384D4EBF57DA299B389B4CA7619D /* Pods-BeatMakerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0C4F168F315B3CA143723AA81CD74 /* Pods-BeatMakerApp-dummy.m */; };
-		B2FA8876B12A7F1E53C8C556551D1627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B5A517B476842E9AC72B9B66D89475FB /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A45DCC8765263B4BCF81AF3FA40C78CC /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D73A2C60F0E38B467138E0EF1E251D17 /* Pods-BeatMakerAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A41DE4029E69EAE67B94B9019C498A /* Pods-BeatMakerAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */; };
+		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */; };
+		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */; };
+		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */; };
+		247619C83FAF382AE262FAD09372E285 /* Pods-BeatMakerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 538C0FB8855F3A764686C5E9E2DDE3DD /* Pods-BeatMakerApp-dummy.m */; };
+		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */; };
+		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */; };
+		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */; };
+		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */; };
+		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D611F243BC3328826FE250D806EC26 /* Combine.swift */; };
+		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */; };
+		57217896B322C98E9504B0F53D2E16D4 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED46332341C25F31229DBC85F1CA4D /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */; };
+		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */; };
+		70955F92678F507EF2298B7B68E6E231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */; };
+		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637848096C1E040096D350A02F8E944 /* Response.swift */; };
+		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */; };
+		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */; };
+		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */; };
+		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */; };
+		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */; };
+		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D97FB483508422ACE73BA88223F05 /* Session.swift */; };
+		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */; };
+		8779213EF1D08384848BCFFEF12F7B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */; };
+		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */; };
+		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */; };
+		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */; };
+		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */; };
+		AB2C8CD481F280D2805FCDDE3081740C /* Pods-BeatMakerAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A8BC53336A866D2387D2CB9D1FCF8 /* Pods-BeatMakerAppTests-dummy.m */; };
+		B284F99088B433996A6F9073BF913751 /* Pods-BeatMakerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B827030C56483BD55A20DA3822149B6D /* Pods-BeatMakerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */; };
+		B388B23CADDF9B7098BF75369C54F6BD /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6819B5CD24EBF4E8D825AB4009C694 /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */; };
+		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */; };
+		C36338998A2FC7925D9DCF3D72152598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */; };
+		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91762C69C08629CBFD921AEBACE63AED /* AFError.swift */; };
+		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */; };
+		D73A2C60F0E38B467138E0EF1E251D17 /* Pods-BeatMakerAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1933D125A133A329ACE6C035B6DCBAB2 /* Pods-BeatMakerAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */; };
+		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */; };
+		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */; };
+		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */; };
+		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */; };
+		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		679F35F8354F8BB0D4C6F6CCE47A47D4 /* PBXContainerItemProxy */ = {
+		34C0FFE3694756F3D2CFDF27C430636D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C14218266DD3533C9A8330C4B368991;
 			remoteInfo = "Pods-BeatMakerApp";
 		};
+		9ACDFCCEA790E4B7EB089EB7CD694205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		B3BE549CE703A95AEFF9B64F8D5939BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0940648BF5151B5CD05964D3E1BD86CA /* Pods-BeatMakerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1067F0072E5FA2B6BB12C0B8F76C9B41 /* Pods-BeatMakerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		17DBDA96BD7D1A4DB1A6F4F0D1BB1139 /* Pods-BeatMakerApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-Info.plist"; sourceTree = "<group>"; };
-		1A6119FC7C6B88FAB91E847204FB692D /* Pods-BeatMakerAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		0A3EB6508561F9676FE95486B422B72D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		0FFD67F62337D2327D93ADA6115E86CA /* Pods-BeatMakerApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-Info.plist"; sourceTree = "<group>"; };
+		13E2A4C42EC30E420639AF18DF366E44 /* Pods-BeatMakerAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		16516FB9345A4D8E84EC46FB64A9EB40 /* Pods-BeatMakerAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerAppTests-Info.plist"; sourceTree = "<group>"; };
+		1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		1933D125A133A329ACE6C035B6DCBAB2 /* Pods-BeatMakerAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerAppTests-umbrella.h"; sourceTree = "<group>"; };
+		19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		289AD4E7F77C70BCE781C92C19EC95A3 /* Pods-BeatMakerApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BeatMakerApp"; path = Pods_BeatMakerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5DF59C7ECE7FF4423168FDB0C0E2C5 /* Pods-BeatMakerApp-BeatMakerAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerApp-BeatMakerAppUITests.modulemap"; sourceTree = "<group>"; };
-		2DA02C2EC0B7DDCA5F04CF06C02D66C3 /* Pods-BeatMakerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2F1E123053B6719D71F2FAE015F60A24 /* Pods-BeatMakerAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerAppTests.modulemap"; sourceTree = "<group>"; };
-		3DE4AA8E3CA545EAF1B012B4997C8B29 /* Pods-BeatMakerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp.release.xcconfig"; sourceTree = "<group>"; };
-		43E0C4F168F315B3CA143723AA81CD74 /* Pods-BeatMakerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerApp-dummy.m"; sourceTree = "<group>"; };
-		462508155924B70600DB79A8711DCB9C /* Pods-BeatMakerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerApp.modulemap"; sourceTree = "<group>"; };
-		4A3167BADA3D71A8CC0C89DD945E1468 /* Pods-BeatMakerAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4EA700CE4321DA12FDB54F60EE62D47F /* Pods-BeatMakerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7ED187C4AE9F9E30DBAEA2F285B0472A /* Pods-BeatMakerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerApp-umbrella.h"; sourceTree = "<group>"; };
+		29666FE5D4435FEAB82521875B797735 /* Pods-BeatMakerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2E1626872425E2A52245F6E86D7754DF /* Pods-BeatMakerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		3B0D97FB483508422ACE73BA88223F05 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		401A64A8A844C532F8989DC9284F804E /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42D611F243BC3328826FE250D806EC26 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		4B2CACFDA23CD2EAA0A6E4619360F74C /* Pods-BeatMakerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		538C0FB8855F3A764686C5E9E2DDE3DD /* Pods-BeatMakerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerApp-dummy.m"; sourceTree = "<group>"; };
+		53CF07D964AC38E58A77AC4914FBB80D /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		6C4A8BC53336A866D2387D2CB9D1FCF8 /* Pods-BeatMakerAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerAppTests-dummy.m"; sourceTree = "<group>"; };
+		6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		6F48CA9815B5954D1699876C4A37D193 /* Pods-BeatMakerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		78F0F059151325E1839636A512D1EC7C /* Pods-BeatMakerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp.release.xcconfig"; sourceTree = "<group>"; };
 		7F234EDCF6CCED5CE830FDBDF64B1CE2 /* Pods-BeatMakerApp-BeatMakerAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BeatMakerApp-BeatMakerAppUITests"; path = Pods_BeatMakerApp_BeatMakerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82ED46332341C25F31229DBC85F1CA4D /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m"; sourceTree = "<group>"; };
+		857EAEE1D87666C0783644CF980F0150 /* Pods-BeatMakerAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8637848096C1E040096D350A02F8E944 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		8D0B67048F40B3ECC038E39E230536F0 /* Pods-BeatMakerAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BeatMakerAppTests"; path = Pods_BeatMakerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8D6819B5CD24EBF4E8D825AB4009C694 /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		9004C2E27B7F9FA32BC9B07CD98CDCE0 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		91762C69C08629CBFD921AEBACE63AED /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FF2B36DBC83ED5180816AF41A7FFE74 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m"; sourceTree = "<group>"; };
-		A45DCC8765263B4BCF81AF3FA40C78CC /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		ABF791CCDE4E2506265605E6A720D78E /* Pods-BeatMakerAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeatMakerAppTests-dummy.m"; sourceTree = "<group>"; };
-		ADC1583132D619AFDCB45B9022751111 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B02D203B1A5C89C6C67A67C40320D79C /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA426B9C9070CB083FA34A62AA2AC0F1 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CFC742626EBC02DAA9DFFE3C27DE83A9 /* Pods-BeatMakerAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerAppTests-Info.plist"; sourceTree = "<group>"; };
-		D2A41DE4029E69EAE67B94B9019C498A /* Pods-BeatMakerAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerAppTests-umbrella.h"; sourceTree = "<group>"; };
-		DE07303A865D1BAA698319DBDFB3D2B3 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE6D3BBE587F766D48119B7EA26CA819 /* Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist"; sourceTree = "<group>"; };
-		F891869AE4856A55F0626C9CCA6C31A7 /* Pods-BeatMakerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		AE9F5AFCADA7865219A3A6789EBD0266 /* Pods-BeatMakerAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerAppTests.modulemap"; sourceTree = "<group>"; };
+		B5738C54CD5455CD9A05E2C27D52BB35 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B827030C56483BD55A20DA3822149B6D /* Pods-BeatMakerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeatMakerApp-umbrella.h"; sourceTree = "<group>"; };
+		BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		C135E40C5B882F94463EFB8CFFA00F86 /* Pods-BeatMakerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerApp.modulemap"; sourceTree = "<group>"; };
+		C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		C98A7CFC67799219F58F2784F913A619 /* Pods-BeatMakerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeatMakerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA1AF4E5249744106C2A909CC916228D /* Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist"; sourceTree = "<group>"; };
+		CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		D7164436FC79EDFE6BBC08024A158272 /* Pods-BeatMakerApp-BeatMakerAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeatMakerApp-BeatMakerAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D8F0965F58494C71806CBC6BE8619E99 /* Pods-BeatMakerApp-BeatMakerAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BeatMakerApp-BeatMakerAppUITests.modulemap"; sourceTree = "<group>"; };
+		DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		E1DAA74601590E34FE42EE0B3D8E611C /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		F879E332B0EDE8268C5DD2244AE918F8 /* Pods-BeatMakerApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeatMakerApp-frameworks.sh"; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		FF784AECAB1CF4D8E63DFB863F9B8E55 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7538BC2557B4A8F8F4077A29265CD4DA /* Frameworks */ = {
+		0C6506774F2EAEDFFC81B440D96DBFEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FA8876B12A7F1E53C8C556551D1627 /* Foundation.framework in Frameworks */,
+				C36338998A2FC7925D9DCF3D72152598 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
+				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341436C9A651E23B561D7F8DA2A64E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70955F92678F507EF2298B7B68E6E231 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,20 +195,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0215186210043F3699580099CB504F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60019381CFF1BF4E8C27DC3A513DB7AF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B6101CF275CDBA07998E9AF4EE25BDC /* Products */ = {
+		0F430900D5106B8797222EBCB0C11288 /* Pods-BeatMakerApp */ = {
 			isa = PBXGroup;
 			children = (
+				C135E40C5B882F94463EFB8CFFA00F86 /* Pods-BeatMakerApp.modulemap */,
+				C98A7CFC67799219F58F2784F913A619 /* Pods-BeatMakerApp-acknowledgements.markdown */,
+				29666FE5D4435FEAB82521875B797735 /* Pods-BeatMakerApp-acknowledgements.plist */,
+				538C0FB8855F3A764686C5E9E2DDE3DD /* Pods-BeatMakerApp-dummy.m */,
+				F879E332B0EDE8268C5DD2244AE918F8 /* Pods-BeatMakerApp-frameworks.sh */,
+				0FFD67F62337D2327D93ADA6115E86CA /* Pods-BeatMakerApp-Info.plist */,
+				B827030C56483BD55A20DA3822149B6D /* Pods-BeatMakerApp-umbrella.h */,
+				4B2CACFDA23CD2EAA0A6E4619360F74C /* Pods-BeatMakerApp.debug.xcconfig */,
+				78F0F059151325E1839636A512D1EC7C /* Pods-BeatMakerApp.release.xcconfig */,
+			);
+			name = "Pods-BeatMakerApp";
+			path = "Target Support Files/Pods-BeatMakerApp";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B0810928A6319057A946D6BCAD4DD5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF784AECAB1CF4D8E63DFB863F9B8E55 /* Alamofire.modulemap */,
+				F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */,
+				9004C2E27B7F9FA32BC9B07CD98CDCE0 /* Alamofire-Info.plist */,
+				0A3EB6508561F9676FE95486B422B72D /* Alamofire-prefix.pch */,
+				232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */,
+				A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */,
+				DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		4CE87983BAEBEA94FF144E4B8A95A1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
 				289AD4E7F77C70BCE781C92C19EC95A3 /* Pods-BeatMakerApp */,
 				7F234EDCF6CCED5CE830FDBDF64B1CE2 /* Pods-BeatMakerApp-BeatMakerAppUITests */,
 				8D0B67048F40B3ECC038E39E230536F0 /* Pods-BeatMakerAppTests */,
@@ -98,106 +249,146 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D1E9AACA046A509917736DC971AE4CB /* Pods-BeatMakerApp-BeatMakerAppUITests */ = {
+		4D96891FD3E32EA710ACA90E62DAED8A /* Pods-BeatMakerApp-BeatMakerAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2B5DF59C7ECE7FF4423168FDB0C0E2C5 /* Pods-BeatMakerApp-BeatMakerAppUITests.modulemap */,
-				DE07303A865D1BAA698319DBDFB3D2B3 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown */,
-				BA426B9C9070CB083FA34A62AA2AC0F1 /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist */,
-				9FF2B36DBC83ED5180816AF41A7FFE74 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */,
-				DE6D3BBE587F766D48119B7EA26CA819 /* Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist */,
-				A45DCC8765263B4BCF81AF3FA40C78CC /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */,
-				B02D203B1A5C89C6C67A67C40320D79C /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */,
-				ADC1583132D619AFDCB45B9022751111 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */,
+				D8F0965F58494C71806CBC6BE8619E99 /* Pods-BeatMakerApp-BeatMakerAppUITests.modulemap */,
+				401A64A8A844C532F8989DC9284F804E /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.markdown */,
+				E1DAA74601590E34FE42EE0B3D8E611C /* Pods-BeatMakerApp-BeatMakerAppUITests-acknowledgements.plist */,
+				82ED46332341C25F31229DBC85F1CA4D /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m */,
+				D7164436FC79EDFE6BBC08024A158272 /* Pods-BeatMakerApp-BeatMakerAppUITests-frameworks.sh */,
+				CA1AF4E5249744106C2A909CC916228D /* Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist */,
+				8D6819B5CD24EBF4E8D825AB4009C694 /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h */,
+				53CF07D964AC38E58A77AC4914FBB80D /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */,
+				B5738C54CD5455CD9A05E2C27D52BB35 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */,
 			);
 			name = "Pods-BeatMakerApp-BeatMakerAppUITests";
 			path = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests";
 			sourceTree = "<group>";
 		};
-		2624D13295581EA82A7627C56FA60777 /* Pods-BeatMakerApp */ = {
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				462508155924B70600DB79A8711DCB9C /* Pods-BeatMakerApp.modulemap */,
-				0940648BF5151B5CD05964D3E1BD86CA /* Pods-BeatMakerApp-acknowledgements.markdown */,
-				4EA700CE4321DA12FDB54F60EE62D47F /* Pods-BeatMakerApp-acknowledgements.plist */,
-				43E0C4F168F315B3CA143723AA81CD74 /* Pods-BeatMakerApp-dummy.m */,
-				17DBDA96BD7D1A4DB1A6F4F0D1BB1139 /* Pods-BeatMakerApp-Info.plist */,
-				7ED187C4AE9F9E30DBAEA2F285B0472A /* Pods-BeatMakerApp-umbrella.h */,
-				F891869AE4856A55F0626C9CCA6C31A7 /* Pods-BeatMakerApp.debug.xcconfig */,
-				3DE4AA8E3CA545EAF1B012B4997C8B29 /* Pods-BeatMakerApp.release.xcconfig */,
-			);
-			name = "Pods-BeatMakerApp";
-			path = "Target Support Files/Pods-BeatMakerApp";
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		84BE55EB85860C417662C66A2E3B5A35 /* Targets Support Files */ = {
+		8AF1E9E43AA6E1476EB6E589952F9619 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2624D13295581EA82A7627C56FA60777 /* Pods-BeatMakerApp */,
-				0D1E9AACA046A509917736DC971AE4CB /* Pods-BeatMakerApp-BeatMakerAppUITests */,
-				B530E2113CBB9A7F31D6D516BB1D3BC2 /* Pods-BeatMakerAppTests */,
+				0F430900D5106B8797222EBCB0C11288 /* Pods-BeatMakerApp */,
+				4D96891FD3E32EA710ACA90E62DAED8A /* Pods-BeatMakerApp-BeatMakerAppUITests */,
+				F69C14F00AA5624D7DBFEB1B923BC38D /* Pods-BeatMakerAppTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B530E2113CBB9A7F31D6D516BB1D3BC2 /* Pods-BeatMakerAppTests */ = {
+		8E167B633C802817B2BE74255F6EE178 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				2F1E123053B6719D71F2FAE015F60A24 /* Pods-BeatMakerAppTests.modulemap */,
-				1A6119FC7C6B88FAB91E847204FB692D /* Pods-BeatMakerAppTests-acknowledgements.markdown */,
-				4A3167BADA3D71A8CC0C89DD945E1468 /* Pods-BeatMakerAppTests-acknowledgements.plist */,
-				ABF791CCDE4E2506265605E6A720D78E /* Pods-BeatMakerAppTests-dummy.m */,
-				CFC742626EBC02DAA9DFFE3C27DE83A9 /* Pods-BeatMakerAppTests-Info.plist */,
-				D2A41DE4029E69EAE67B94B9019C498A /* Pods-BeatMakerAppTests-umbrella.h */,
-				2DA02C2EC0B7DDCA5F04CF06C02D66C3 /* Pods-BeatMakerAppTests.debug.xcconfig */,
-				1067F0072E5FA2B6BB12C0B8F76C9B41 /* Pods-BeatMakerAppTests.release.xcconfig */,
+				91762C69C08629CBFD921AEBACE63AED /* AFError.swift */,
+				8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */,
+				BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */,
+				15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */,
+				CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */,
+				42D611F243BC3328826FE250D806EC26 /* Combine.swift */,
+				F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */,
+				E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */,
+				A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */,
+				182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */,
+				A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */,
+				19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */,
+				47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */,
+				D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */,
+				1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */,
+				9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */,
+				4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */,
+				D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */,
+				C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */,
+				50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */,
+				5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */,
+				5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */,
+				6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */,
+				8637848096C1E040096D350A02F8E944 /* Response.swift */,
+				2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */,
+				F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */,
+				6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */,
+				717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */,
+				3B0D97FB483508422ACE73BA88223F05 /* Session.swift */,
+				DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */,
+				9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */,
+				3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */,
+				DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */,
+				53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */,
+				FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */,
+				02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */,
+				2B0810928A6319057A946D6BCAD4DD5E /* Support Files */,
 			);
-			name = "Pods-BeatMakerAppTests";
-			path = "Target Support Files/Pods-BeatMakerAppTests";
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		9F4B67447122FC6BA6080EAA9B88A719 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E167B633C802817B2BE74255F6EE178 /* Alamofire */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0B6101CF275CDBA07998E9AF4EE25BDC /* Products */,
-				84BE55EB85860C417662C66A2E3B5A35 /* Targets Support Files */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9F4B67447122FC6BA6080EAA9B88A719 /* Pods */,
+				4CE87983BAEBEA94FF144E4B8A95A1CC /* Products */,
+				8AF1E9E43AA6E1476EB6E589952F9619 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		F69C14F00AA5624D7DBFEB1B923BC38D /* Pods-BeatMakerAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				AE9F5AFCADA7865219A3A6789EBD0266 /* Pods-BeatMakerAppTests.modulemap */,
+				857EAEE1D87666C0783644CF980F0150 /* Pods-BeatMakerAppTests-acknowledgements.markdown */,
+				13E2A4C42EC30E420639AF18DF366E44 /* Pods-BeatMakerAppTests-acknowledgements.plist */,
+				6C4A8BC53336A866D2387D2CB9D1FCF8 /* Pods-BeatMakerAppTests-dummy.m */,
+				16516FB9345A4D8E84EC46FB64A9EB40 /* Pods-BeatMakerAppTests-Info.plist */,
+				1933D125A133A329ACE6C035B6DCBAB2 /* Pods-BeatMakerAppTests-umbrella.h */,
+				6F48CA9815B5954D1699876C4A37D193 /* Pods-BeatMakerAppTests.debug.xcconfig */,
+				2E1626872425E2A52245F6E86D7754DF /* Pods-BeatMakerAppTests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-BeatMakerAppTests";
+			path = "Target Support Files/Pods-BeatMakerAppTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13FE75567AEFBA605E31C460CB1E8A92 /* Headers */ = {
+		21E8F6E33C7D3361276FCE490656A5B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A517B476842E9AC72B9B66D89475FB /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h in Headers */,
+				B284F99088B433996A6F9073BF913751 /* Pods-BeatMakerApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D35ABF408185E349E266D484043B027B /* Headers */ = {
+		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F74BB2E3FE9554DA70CCFA6DD29C42 /* Pods-BeatMakerApp-umbrella.h in Headers */,
+				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F4DC540B1B926AFBCEE232335D795E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B388B23CADDF9B7098BF75369C54F6BD /* Pods-BeatMakerApp-BeatMakerAppUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,16 +405,17 @@
 /* Begin PBXNativeTarget section */
 		1C14218266DD3533C9A8330C4B368991 /* Pods-BeatMakerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B5A541BC58ABEB94FDE81D85D562705 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp" */;
+			buildConfigurationList = CDE7856C9DB30E391E19F0F7EA3C0231 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp" */;
 			buildPhases = (
-				D35ABF408185E349E266D484043B027B /* Headers */,
-				D51DFF556636D4F3517BA9B7996F44E6 /* Sources */,
-				F0215186210043F3699580099CB504F1 /* Frameworks */,
-				70DA2D6BF38C923E71DC7FAA040923F4 /* Resources */,
+				21E8F6E33C7D3361276FCE490656A5B6 /* Headers */,
+				B709A65CDD3E949981B15BD60F3DC7FB /* Sources */,
+				0C6506774F2EAEDFFC81B440D96DBFEE /* Frameworks */,
+				1BF76B4F8AECD507D91299006DF2243A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6BA853650CDF22CD7120957CF5DBE1FA /* PBXTargetDependency */,
 			);
 			name = "Pods-BeatMakerApp";
 			productName = Pods_BeatMakerApp;
@@ -232,16 +424,17 @@
 		};
 		513BE43B46C219A1C45E47B5BDC4A191 /* Pods-BeatMakerApp-BeatMakerAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22379F06B8DD9EACB6015B1C058EF5C3 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp-BeatMakerAppUITests" */;
+			buildConfigurationList = 2BCBF16BC3A412F52AA615FBB7B7371C /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp-BeatMakerAppUITests" */;
 			buildPhases = (
-				13FE75567AEFBA605E31C460CB1E8A92 /* Headers */,
-				3B033DB6C432551E11FED6806A131124 /* Sources */,
-				7538BC2557B4A8F8F4077A29265CD4DA /* Frameworks */,
-				DEE2BE6D778A1EBE331AF61FB460B7AB /* Resources */,
+				58F4DC540B1B926AFBCEE232335D795E /* Headers */,
+				52A305BE17E83507BFD48735CA18BBBA /* Sources */,
+				341436C9A651E23B561D7F8DA2A64E46 /* Frameworks */,
+				213080FF36219B061E00D667BC447EF6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE4A323E50C03587C8BB223135A872BE /* PBXTargetDependency */,
 			);
 			name = "Pods-BeatMakerApp-BeatMakerAppUITests";
 			productName = Pods_BeatMakerApp_BeatMakerAppUITests;
@@ -260,11 +453,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				251CA50A06231454960A044A80A05567 /* PBXTargetDependency */,
+				67E4E9A4A77182B7E61D0903521FD824 /* PBXTargetDependency */,
 			);
 			name = "Pods-BeatMakerAppTests";
 			productName = Pods_BeatMakerAppTests;
 			productReference = 8D0B67048F40B3ECC038E39E230536F0 /* Pods-BeatMakerAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
+				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
+				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
+				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -285,10 +496,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0B6101CF275CDBA07998E9AF4EE25BDC /* Products */;
+			productRefGroup = 4CE87983BAEBEA94FF144E4B8A95A1CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				1C14218266DD3533C9A8330C4B368991 /* Pods-BeatMakerApp */,
 				513BE43B46C219A1C45E47B5BDC4A191 /* Pods-BeatMakerApp-BeatMakerAppUITests */,
 				E36C9E00A133316387FE8DC9402A7E52 /* Pods-BeatMakerAppTests */,
@@ -297,6 +509,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1BF76B4F8AECD507D91299006DF2243A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		213080FF36219B061E00D667BC447EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		387167C191EA0E0F9BD9D709AE1B8DF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,14 +530,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70DA2D6BF38C923E71DC7FAA040923F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEE2BE6D778A1EBE331AF61FB460B7AB /* Resources */ = {
+		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,37 +548,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B033DB6C432551E11FED6806A131124 /* Sources */ = {
+		52A305BE17E83507BFD48735CA18BBBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2BC90434373A7EC61359813B654B34 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m in Sources */,
+				57217896B322C98E9504B0F53D2E16D4 /* Pods-BeatMakerApp-BeatMakerAppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D51DFF556636D4F3517BA9B7996F44E6 /* Sources */ = {
+		B709A65CDD3E949981B15BD60F3DC7FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB43384D4EBF57DA299B389B4CA7619D /* Pods-BeatMakerApp-dummy.m in Sources */,
+				247619C83FAF382AE262FAD09372E285 /* Pods-BeatMakerApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
+				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
+				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
+				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
+				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
+				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
+				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
+				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
+				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
+				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
+				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
+				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
+				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
+				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
+				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
+				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
+				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
+				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
+				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
+				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
+				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
+				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
+				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
+				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
+				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
+				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
+				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
+				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
+				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
+				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
+				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
+				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
+				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
+				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
+				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		251CA50A06231454960A044A80A05567 /* PBXTargetDependency */ = {
+		67E4E9A4A77182B7E61D0903521FD824 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BeatMakerApp";
 			target = 1C14218266DD3533C9A8330C4B368991 /* Pods-BeatMakerApp */;
-			targetProxy = 679F35F8354F8BB0D4C6F6CCE47A47D4 /* PBXContainerItemProxy */;
+			targetProxy = 34C0FFE3694756F3D2CFDF27C430636D /* PBXContainerItemProxy */;
+		};
+		6BA853650CDF22CD7120957CF5DBE1FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 9ACDFCCEA790E4B7EB089EB7CD694205 /* PBXContainerItemProxy */;
+		};
+		CE4A323E50C03587C8BB223135A872BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = B3BE549CE703A95AEFF9B64F8D5939BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AD57486B3484445F806EDF2D1938CF3 /* Release */ = {
+		35A639C339914E26F91F6E068FB696AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC1583132D619AFDCB45B9022751111 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */;
+			baseConfigurationReference = 78F0F059151325E1839636A512D1EC7C /* Pods-BeatMakerApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -371,7 +646,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -380,7 +655,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -397,7 +672,7 @@
 		};
 		5B619EA777E710B07C67CC49430BA415 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DA02C2EC0B7DDCA5F04CF06C02D66C3 /* Pods-BeatMakerAppTests.debug.xcconfig */;
+			baseConfigurationReference = 6F48CA9815B5954D1699876C4A37D193 /* Pods-BeatMakerAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -432,9 +707,9 @@
 			};
 			name = Debug;
 		};
-		75F34D103A4724F646C3BB04D94BF888 /* Debug */ = {
+		74826AACC3330847A0E2189DD00FACB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B02D203B1A5C89C6C67A67C40320D79C /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 4B2CACFDA23CD2EAA0A6E4619360F74C /* Pods-BeatMakerApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -446,7 +721,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,7 +730,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -471,7 +746,7 @@
 		};
 		79CEDEDCAE1EB691B4B67B51A59E499C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1067F0072E5FA2B6BB12C0B8F76C9B41 /* Pods-BeatMakerAppTests.release.xcconfig */;
+			baseConfigurationReference = 2E1626872425E2A52245F6E86D7754DF /* Pods-BeatMakerAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -506,6 +781,79 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7F79A22E6B77467F32AFFDDE4F8D02D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5738C54CD5455CD9A05E2C27D52BB35 /* Pods-BeatMakerApp-BeatMakerAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		880219FBBFBA4B703A46B5F770D59ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -635,9 +983,9 @@
 			};
 			name = Release;
 		};
-		98EDF0B221043B98F48C0F12F967C639 /* Release */ = {
+		AADBB644E8442708C837BB5867EB6490 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DE4AA8E3CA545EAF1B012B4997C8B29 /* Pods-BeatMakerApp.release.xcconfig */;
+			baseConfigurationReference = 53CF07D964AC38E58A77AC4914FBB80D /* Pods-BeatMakerApp-BeatMakerAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -649,7 +997,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -658,45 +1006,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D0222C1F7D76CA1677058EF64873F979 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F891869AE4856A55F0626C9CCA6C31A7 /* Pods-BeatMakerApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-BeatMakerApp-BeatMakerAppUITests/Pods-BeatMakerApp-BeatMakerAppUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -710,14 +1020,50 @@
 			};
 			name = Debug;
 		};
+		F95E4C330E939A7027D8A4E361545DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22379F06B8DD9EACB6015B1C058EF5C3 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp-BeatMakerAppUITests" */ = {
+		2BCBF16BC3A412F52AA615FBB7B7371C /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp-BeatMakerAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75F34D103A4724F646C3BB04D94BF888 /* Debug */,
-				0AD57486B3484445F806EDF2D1938CF3 /* Release */,
+				AADBB644E8442708C837BB5867EB6490 /* Debug */,
+				7F79A22E6B77467F32AFFDDE4F8D02D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,11 +1086,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B5A541BC58ABEB94FDE81D85D562705 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp" */ = {
+		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0222C1F7D76CA1677058EF64873F979 /* Debug */,
-				98EDF0B221043B98F48C0F12F967C639 /* Release */,
+				880219FBBFBA4B703A46B5F770D59ADF /* Debug */,
+				F95E4C330E939A7027D8A4E361545DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE7856C9DB30E391E19F0F7EA3C0231 /* Build configuration list for PBXNativeTarget "Pods-BeatMakerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74826AACC3330847A0E2189DD00FACB4 /* Debug */,
+				35A639C339914E26F91F6E068FB696AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

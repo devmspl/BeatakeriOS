@@ -6,6 +6,7 @@ target 'BeatMakerApp' do
   use_frameworks!
 
   # Pods for BeatMakerApp
+	pod "Alamofire"
 
   target 'BeatMakerAppTests' do
     inherit! :search_paths

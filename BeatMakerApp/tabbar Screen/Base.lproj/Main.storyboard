@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y96-35-BQN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tt5-qm-KSI">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -578,6 +578,7 @@
                                                             </label>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NMO-qx-Xi2">
                                                                 <rect key="frame" x="13" y="120" width="351" height="25.5"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
@@ -590,6 +591,7 @@
                                                             </view>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ipd-pC-bAG">
                                                                 <rect key="frame" x="13" y="184.5" width="351" height="25.5"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
@@ -602,6 +604,7 @@
                                                             </view>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yQx-bN-JGP">
                                                                 <rect key="frame" x="13" y="249" width="351" height="25.5"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
@@ -614,6 +617,7 @@
                                                             </view>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fpi-WO-ItQ">
                                                                 <rect key="frame" x="13" y="313.5" width="351" height="25.5"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <textInputTraits key="textInputTraits"/>
                                                             </textField>
@@ -699,7 +703,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="loginButtn:" destination="tXJ-H3-B2b" eventType="touchUpInside" id="flb-Vb-ybf"/>
+                                                            <action selector="loginButtn:" destination="tXJ-H3-B2b" eventType="touchUpInside" id="IPO-jT-U8T"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -748,6 +752,12 @@
                             <constraint firstItem="f8H-I0-Bvv" firstAttribute="top" secondItem="FJg-yf-0Z6" secondAttribute="top" id="eFh-TJ-yR6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmpassword" destination="Fpi-WO-ItQ" id="CsV-GT-4PQ"/>
+                        <outlet property="emailAdress" destination="ipd-pC-bAG" id="Fo7-sK-HjS"/>
+                        <outlet property="fullName" destination="NMO-qx-Xi2" id="kgk-a0-vZo"/>
+                        <outlet property="password" destination="yQx-bN-JGP" id="N9h-Tc-bvZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pi5-3c-Mlw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -969,8 +979,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="namee" destination="i0h-o4-QFI" id="8R2-V8-8qQ"/>
-                        <outlet property="password" destination="CEI-vZ-zE6" id="3HN-j8-di4"/>
+                        <outlet property="Email" destination="i0h-o4-QFI" id="8LS-1l-ff7"/>
+                        <outlet property="Password" destination="CEI-vZ-zE6" id="bKI-D1-ECA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FOQ-yF-6Oq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

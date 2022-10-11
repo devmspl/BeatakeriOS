@@ -54,6 +54,7 @@
 		761911F628CC5F86006BF77A /* drum11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761911F528CC5F86006BF77A /* drum11.wav */; };
 		761911F828CC5F8C006BF77A /* drum13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 761911F728CC5F8C006BF77A /* drum13.wav */; };
 		8E16004FD083895CFE88D0BD /* Pods_BeatMakerApp_BeatMakerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3EE42D852AC78112A7D365 /* Pods_BeatMakerApp_BeatMakerAppUITests.framework */; };
+		FA45806C28F536DB002D3888 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45806B28F536DB002D3888 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		761911F728CC5F8C006BF77A /* drum13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drum13.wav; sourceTree = "<group>"; };
 		7D5091A4EB718C768DEDAA05 /* Pods-BeatMakerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerApp.release.xcconfig"; path = "Target Support Files/Pods-BeatMakerApp/Pods-BeatMakerApp.release.xcconfig"; sourceTree = "<group>"; };
 		81EEBB11F3A39F467581ACE9 /* Pods_BeatMakerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeatMakerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA45806B28F536DB002D3888 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		FF8D1CA2844C399CD10F8D1D /* Pods-BeatMakerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeatMakerAppTests.release.xcconfig"; path = "Target Support Files/Pods-BeatMakerAppTests/Pods-BeatMakerAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +227,7 @@
 				6F866F5F28B35C6900CA046D /* Assets.xcassets */,
 				6F866F6128B35C6900CA046D /* LaunchScreen.storyboard */,
 				6F866F6428B35C6900CA046D /* Info.plist */,
+				FA45806B28F536DB002D3888 /* Reachability.swift */,
 			);
 			path = BeatMakerApp;
 			sourceTree = "<group>";
@@ -554,6 +557,7 @@
 				6F866F5B28B35C6400CA046D /* ViewController.swift in Sources */,
 				6F29C9EE28B8DF9C00E4E948 /* tabbvar.swift in Sources */,
 				6F16622628C9C644009A2856 /* BeatPage1.swift in Sources */,
+				FA45806C28F536DB002D3888 /* Reachability.swift in Sources */,
 				6FC9DF5028D20419009131FB /* SettingScreen.swift in Sources */,
 				6F75DEB328B74703003EABF0 /* starting4.swift in Sources */,
 				6F71A67728BF7D4B00A6087D /* BeatScreen.swift in Sources */,

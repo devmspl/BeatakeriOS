@@ -8,7 +8,8 @@ target 'BeatMakerApp' do
   # Pods for BeatMakerApp
 	pod "Alamofire"
 	pod 'ARSLineProgress', '~> 3.1'
-  	pod "GoogleSignIn"
+	pod 'IQKeyboardManagerSwift'
+	pod 'DropDown'
   target 'BeatMakerAppTests' do
     inherit! :search_paths
     # Pods for testing

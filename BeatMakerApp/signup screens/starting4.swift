@@ -7,7 +7,7 @@
 
 import UIKit
 import Alamofire
-
+import  IQKeyboardManagerSwift
 class starting4: UIViewController {
 
     @IBOutlet weak var emailAdress: UITextField!
